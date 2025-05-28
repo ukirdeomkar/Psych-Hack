@@ -1,250 +1,254 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <!-- basic -->
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <!-- mobile metas -->
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-      <!-- site metas -->
-      <title>PsychHack </title>
-      <meta name="keywords" content="">
-      <meta name="description" content="">
-      <meta name="author" content="">
-      <!-- bootstrap css -->
-      <link rel="stylesheet" href="css/bootstrap.min.css">
-      <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+
+<head>
+   <!-- basic -->
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <!-- mobile metas -->
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+   <!-- site metas -->
+   <title>PsychHack </title>
+   <meta name="keywords" content="">
+   <meta name="description" content="">
+   <meta name="author" content="">
+   <!-- bootstrap css -->
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+   <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css"> -->
-      <!-- font -->
-      <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+   <!-- font -->
+   <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
 
-      <!-- style css -->
-      <link rel="stylesheet" href="css/style.css">
+   <!-- style css -->
+   <link rel="stylesheet" href="css/style.css">
 
 
-      <!-- Responsive-->
-      <link rel="stylesheet" href="css/responsive.css">
-      <!-- <link rel="stylesheet" href="css/faq.css"> -->
-      <!-- fevicon -->
-      <link rel="shortcut icon" href="images/favicon.ico" />
-      <!-- fontawesome icons -->
-      <script src="https://kit.fontawesome.com/f6a7b0942f.js" crossorigin="anonymous"></script>
+   <!-- Responsive-->
+   <link rel="stylesheet" href="css/responsive.css">
+   <!-- <link rel="stylesheet" href="css/faq.css"> -->
+   <!-- fevicon -->
+   <link rel="shortcut icon" href="images/favicon.ico" />
+   <!-- fontawesome icons -->
+   <script src="https://kit.fontawesome.com/f6a7b0942f.js" crossorigin="anonymous"></script>
 
-      <!-- Scrollbar Custom CSS -->
-      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
-      <!-- Tweaks for older IEs-->
-      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
-      
-      <!-- Devfolio Link  -->
+   <!-- Scrollbar Custom CSS -->
+   <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+   <!-- Tweaks for older IEs-->
+   <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css"
+      media="screen">
 
-      <script defer async src="https://apply.devfolio.co/v2/sdk.js"></script>
-      <!-- THREE.js  -->
-      <script src="https://threejs.org/build/three.js"></script>
-      <link rel="stylesheet" href="css/canvas.css">
+   <!-- Devfolio Link  -->
 
-      <!--[if lt IE 9]>
+   <script defer async src="https://apply.devfolio.co/v2/sdk.js"></script>
+   <!-- THREE.js  -->
+   <script src="https://threejs.org/build/three.js"></script>
+   <link rel="stylesheet" href="css/canvas.css">
+
+   <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
-   </head>
-   <!-- body -->
-   <body class="main-layout">
-      
-      <!-- loader  -->
-      <div class="loader_bg">
-         <div class="loader"><img src="images/loading2.gif" alt="loading.."  /></div>
-      </div>
-      <!-- end loader -->
-      <!-- header -->
-      <header>
-         <!-- header inner -->
-         <div class="header">
-            <div class="container">
-               <div class="row">
-                  <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
-                     <div class="full">
-                        <div class="center-desk">
-                           <div class="logo">
-                              <a href=""><img src="images/gdsclogo(1).png"  class="web" alt="#"  /><img src="images/gdsclogo(2).png" class="mobile" alt="#"  /></a>
-                           </div>
+</head>
+<!-- body -->
+
+<body class="main-layout">
+
+   <!-- loader  -->
+   <div class="loader_bg">
+      <div class="loader"><img src="images/loading2.gif" alt="loading.." /></div>
+   </div>
+   <!-- end loader -->
+   <!-- header -->
+   <header>
+      <!-- header inner -->
+      <div class="header">
+         <div class="container">
+            <div class="row">
+               <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
+                  <div class="full">
+                     <div class="center-desk">
+                        <div class="logo">
+                           <a href=""><img src="images/gdsclogo(1).png" class="web" alt="#" /><img
+                                 src="images/gdsclogo(2).png" class="mobile" alt="#" /></a>
                         </div>
                      </div>
                   </div>
-                  <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
-                     <nav class="navigation navbar navbar-expand-md navbar-light ">
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+               </div>
+               <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
+                  <nav class="navigation navbar navbar-expand-md navbar-light ">
+                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04"
+                        aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarsExample04">
-                           <ul class="navbar-nav mr-auto">
-                              <li class="nav-item ">
-                                 <a class="nav-link" href="#">Home</a>
-                              </li>
-                              <li class="nav-item">
-                                 <a class="nav-link" href="#about"> About  </a>
-                              </li>
-                              <li class="nav-item">
-                                 <a class="nav-link" href="#track"> Tracks </a>
-                              </li>
-                              <li class="nav-item">
-                                 <a class="nav-link" href="#prizes"> Prizes </a>
-                              </li>
-                              <li class="nav-item">
-                                 <a class="nav-link" href="#sponsor">Sponsors</a>
-                              </li>
-                              <!-- <li class="nav-item">
+                     </button>
+                     <div class="collapse navbar-collapse" id="navbarsExample04">
+                        <ul class="navbar-nav mr-auto">
+                           <li class="nav-item ">
+                              <a class="nav-link" href="#">Home</a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link" href="#about"> About </a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link" href="#track"> Tracks </a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link" href="#prizes"> Prizes </a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link" href="#sponsor">Sponsors</a>
+                           </li>
+                           <!-- <li class="nav-item">
                                  <a class="nav-link" href="#speakers">Speakers</a>
                               </li> -->
-                              <li class="nav-item">
-                                 <a class="nav-link" href="#faq">FAQs</a>
-                              </li>
+                           <li class="nav-item">
+                              <a class="nav-link" href="#faq">FAQs</a>
+                           </li>
 
-                              <li class="nav-item">
-                                 <a class="nav-link" href="#contact">Contact Us</a>
-                              </li>
-                           </ul>
-                        </div>
-                     </nav>
-                  </div>
+                           <li class="nav-item">
+                              <a class="nav-link" href="#contact">Contact Us</a>
+                           </li>
+                        </ul>
+                     </div>
+                  </nav>
                </div>
             </div>
          </div>
-      </header>
-      <!-- end header inner -->
-      <!-- end header -->
-      <!-- banner -->
-      
-      <!-- Moving Background starts -->
-      <canvas id="c" ></canvas>        
-      <!-- Moving Background ends -->
-      
-         <section class="banner_main">
+      </div>
+   </header>
+   <!-- end header inner -->
+   <!-- end header -->
+   <!-- banner -->
 
-         <div class="container">
+   <!-- Moving Background starts -->
+   <canvas id="c"></canvas>
+   <!-- Moving Background ends -->
+
+   <section class="banner_main">
+
+      <div class="container">
+         <div class="row d_flex">
+            <div class="col-md-5">
+               <div class="text-bg">
+                  <h2>12-13th February </h2>
+                  <h1>Psych Hack</h1>
+                  <span>#HackingMentalHealth</span>
+                  <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud </p> -->
+                  <div class="btn-cont">
+                     <!-- <a href="https://forms.gle/ZMEA42C1XnvxDoss5" target="_blank"><i class="fas fa-external-link-alt"></i> Register Now</a> -->
+                     <div class="apply-button" data-hackathon-slug="PsychHack" data-button-theme="dark-inverted"
+                        style="height: 44px; width:400px;">
+                     </div>
+                     &nbsp;&nbsp;
+                     <a href="https://discord.gg/Deph4c2Q6M" target="_blank"><i class="fab fa-discord"></i> Join
+                        Discord</a>
+                  </div>
+
+               </div>
+            </div>
+            <div class="col-md-7">
+               <div class="text-img">
+                  <figure><img src="images/advise (1) copy.png" /></figure>
+               </div>
+            </div>
+         </div>
+         <!-- count down starts -->
+         <div class="count">
+            <span id="cdtext">The Event Starts in:</span>
+            <div>
+               <ul>
+                  <li><span id="Day" class="whitef countdown"></span> Days</li>
+                  <li><span id="Hour" class="whitef countdown"></span>Hours</li>
+                  <li><span id="Min" class="pinkf countdown"></span>Minutes</li>
+                  <li><span id="Sec" class="pinkf countdown"></span>Seconds</li>
+               </ul>
+
+
+
+
+
+            </div>
+         </div>
+         <!-- count ends  -->
+      </div>
+   </section>
+
+   <!-- end banner -->
+
+   <!-- about start -->
+   <div id="about" class="about" data-aos="fade-left">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-12">
+               <div class="titlepage">
+                  <h2>About </h2>
+               </div>
+            </div>
+         </div>
+         <div class="row">
             <div class="row d_flex">
                <div class="col-md-5">
-                  <div class="text-bg">
-                     <h2>12-13th February </h2>
-                     <h1>Psych Hack</h1>
-                     <span>#HackingMentalHealth</span>
-                     <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud </p> -->
-                     <div class="btn-cont">
-                     <!-- <a href="https://forms.gle/ZMEA42C1XnvxDoss5" target="_blank"><i class="fas fa-external-link-alt"></i> Register Now</a> -->
-                     <div 
-                     class="apply-button" 
-                     data-hackathon-slug="PsychHack" 
-                     data-button-theme="dark-inverted"
-                     style="height: 44px; width:400px;"
-                  >
-               </div>
-                     &nbsp;&nbsp;
-                     <a href="https://discord.gg/Deph4c2Q6M" target="_blank"><i class="fab fa-discord"></i> Join Discord</a>
-                     </div>
-                     
-                  </div>
+                  <figure><img src="progressive images/yoga.jpg" alt="#" /></figure>
                </div>
                <div class="col-md-7">
-                  <div class="text-img">
-                     <figure><img src="images/advise (1) copy.png" /></figure>
+                  <div class="about_us">
+
+                     <p>
+                        Psych Hack is a 36-hour hackathon aimed at encouraging student developers and problem solvers to
+                        create technology that addresses Mental Health and its multitudes while also making the world a
+                        better place to live. This is a plethora of opportunities for tech savvy individuals to flaunt
+                        their abilities, capitalise on new and old tech trends, and have their talent recognised and
+                        appreciated.
+                     </p>
                   </div>
                </div>
-            </div>
-                  <!-- count down starts -->
-      <div class="count">
-         <span id="cdtext">The Event Starts in:</span>
-         <div>
-            <ul>
-               <li ><span id="Day" class="whitef countdown"></span> Days</li>
-               <li><span id="Hour" class="whitef countdown"></span>Hours</li>
-               <li><span id="Min" class="pinkf countdown"></span>Minutes</li>
-               <li><span id="Sec" class="pinkf countdown"></span>Seconds</li>
-            </ul>
-            
-            
-            
-            
 
-         </div>
-      </div>
-      <!-- count ends  -->
-         </div>
-      </section>
-   
-      <!-- end banner -->
 
-      <!-- about start -->
-      <div id="about" class="about" data-aos="fade-left">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-12">
-                  <div class="titlepage">
-                     <h2>About </h2>
-                  </div>
-               </div>
-            </div>
-            <div class="row">
-               <div class="row d_flex">
-                  <div class="col-md-5">
-                     <figure><img  src="progressive images/yoga.jpg" alt="#" /></figure>
-                  </div>
-                  <div class="col-md-7">
-                     <div class="about_us">
-                        
-                        <p>
-                           Psych Hack is a 36-hour hackathon aimed at encouraging student developers and problem solvers to create technology that addresses Mental Health and its multitudes while also making the world a better place to live. This is a plethora of opportunities for tech savvy individuals to flaunt their abilities, capitalise on new and old tech trends, and have their talent recognised and appreciated.
-                        </p>
-                     </div>
-                     </div>
 
-              
-
-               </div>
             </div>
          </div>
       </div>
-      <!-- end about -->
-      <!-- Timeline Start -->
-      <section id="timeline">
-         <div class="titlepage" id="timeline-title" >
-            <h2> Timeline </h2>
-         </div>
-         <div class="timeline">
-            <div class="wrapper">
-               <div class="center-line">
-                 <a href="#" class="scroll-icon"><i class="fas fa-caret-up"></i></a>
-               </div>
-               <div class="row row-1">
-                 <section>
-                   <i class="icon fas fa-star"></i>
-                   <div class="details">
+   </div>
+   <!-- end about -->
+   <!-- Timeline Start -->
+   <section id="timeline">
+      <div class="titlepage" id="timeline-title">
+         <h2> Timeline </h2>
+      </div>
+      <div class="timeline">
+         <div class="wrapper">
+            <div class="center-line">
+               <a href="#" class="scroll-icon"><i class="fas fa-caret-up"></i></a>
+            </div>
+            <div class="row row-1">
+               <section>
+                  <i class="icon fas fa-star"></i>
+                  <div class="details">
                      <span class="title">Inaugral Ceremony</span>
                      <span>12 Feb </span>
-                   </div>
-                   <!-- <p>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores, sint eos vero sapiente voluptas debitis dicta dolore.</p> -->
-                   <div class="bottom">
+                  </div>
+                  <!-- <p>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores, sint eos vero sapiente voluptas debitis dicta dolore.</p> -->
+                  <div class="bottom">
                      <!-- <a href="#">Read more</a> -->
                      <i>9:30AM to 10:00AM IST</i>
-                   </div>
-                 </section>
-               </div>
-               <div class="row row-2">
-                 <section>
-                   <i class="icon fas fa-star"></i>
-                   <div class="details">
+                  </div>
+               </section>
+            </div>
+            <div class="row row-2">
+               <section>
+                  <i class="icon fas fa-star"></i>
+                  <div class="details">
                      <span class="title">Hacking Begins</span>
                      <span>12 Feb</span>
-                   </div>
-                   <p>Ideation and dev phase begins !!</p>
-                   <div class="bottom">
+                  </div>
+                  <p>Ideation and dev phase begins !!</p>
+                  <div class="bottom">
                      <!-- <a href="#">Read more</a> -->
                      <i>10:00 AM IST</i>
-                   </div>
-                 </section>
-               </div>
-               <!-- <div class="row row-1">
+                  </div>
+               </section>
+            </div>
+            <!-- <div class="row row-1">
                  <section>
                    <i class="icon fas fa-star"></i>
                    <div class="details">
@@ -257,76 +261,76 @@
                    </div>
                  </section>
                </div> -->
-               <div class="row row-1">
-                 <section>
-                   <i class="icon fas fa-star"></i>
-                   <div class="details">
+            <div class="row row-1">
+               <section>
+                  <i class="icon fas fa-star"></i>
+                  <div class="details">
                      <span class="title">Game Time</span>
                      <span>12 Feb</span>
-                   </div>
-                   <!-- <p>Mini event / chillax sesh.</p> -->
-                   <div class="bottom">
+                  </div>
+                  <!-- <p>Mini event / chillax sesh.</p> -->
+                  <div class="bottom">
                      <!-- <a href="#">Read more</a> -->
                      <i>3:00 PM to 3:30 PM IST</i>
-                   </div>
-                 </section>
-               </div>
-               <div class="row row-2">
-                 <section>
-                   <i class="icon fas fa-star"></i>
-                   <div class="details">
+                  </div>
+               </section>
+            </div>
+            <div class="row row-2">
+               <section>
+                  <i class="icon fas fa-star"></i>
+                  <div class="details">
                      <span class="title">Session</span>
                      <span>12 Feb</span>
-                   </div>
-                   <p>What makes Flutter so popular & how to learn it? <br> <b>Speaker :</b> Abu Anwar MD Abdullah </p>
-                   <div class="bottom">
+                  </div>
+                  <p>What makes Flutter so popular & how to learn it? <br> <b>Speaker :</b> Abu Anwar MD Abdullah </p>
+                  <div class="bottom">
                      <!-- <a href="#">Read more</a> -->
                      <i>4:00 PM to 5:00 PM IST</i>
-                   </div>
-                 </section>
-               </div>
-               <div class="row row-1">
-                 <section>
-                   <i class="icon fas fa-star"></i>
-                   <div class="details">
+                  </div>
+               </section>
+            </div>
+            <div class="row row-1">
+               <section>
+                  <i class="icon fas fa-star"></i>
+                  <div class="details">
                      <span class="title">QnA Session</span>
                      <span>12 Feb</span>
-                   </div>
-                   <p>QnA with Experts</p>
-                   <div class="bottom">
+                  </div>
+                  <p>QnA with Experts</p>
+                  <div class="bottom">
                      <!-- <a href="#">Read more</a> -->
                      <i>10:00 PM to 10:30 PM IST</i>
-                   </div>
-                 </section>
-               </div>
-               <div class="row row-2">
-                  <section>
-                    <i class="icon fas fa-star"></i>
-                    <div class="details">
-                      <span class="title">How to Submit Your Hack on Devfolio</span>
-                      <span>13 Feb</span>
-                    </div>
-                    <!-- <p>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores, sint eos vero sapiente voluptas debitis dicta dolore.</p> -->
-                    <div class="bottom">
-                      <!-- <a href="#">Read more</a> -->
-                      <i>2:00 PM to 3:00 PM IST</i>
-                    </div>
-                  </section>
-                </div>
-                <div class="row row-1">
-                  <section>
-                    <i class="icon fas fa-star"></i>
-                    <div class="details">
-                      <span class="title">Networking Event</span>
-                      <span>13 Feb</span>
-                    </div>
-                    <p>Work Life Balance Discussion</p>
-                    <div class="bottom">
-                      <i>4:00 PM to 5:00 PM IST</i>
-                    </div>
-                  </section>
-                </div>
-                <!-- <div class="row row-2">
+                  </div>
+               </section>
+            </div>
+            <div class="row row-2">
+               <section>
+                  <i class="icon fas fa-star"></i>
+                  <div class="details">
+                     <span class="title">How to Submit Your Hack on Devfolio</span>
+                     <span>13 Feb</span>
+                  </div>
+                  <!-- <p>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores, sint eos vero sapiente voluptas debitis dicta dolore.</p> -->
+                  <div class="bottom">
+                     <!-- <a href="#">Read more</a> -->
+                     <i>2:00 PM to 3:00 PM IST</i>
+                  </div>
+               </section>
+            </div>
+            <div class="row row-1">
+               <section>
+                  <i class="icon fas fa-star"></i>
+                  <div class="details">
+                     <span class="title">Networking Event</span>
+                     <span>13 Feb</span>
+                  </div>
+                  <p>Work Life Balance Discussion</p>
+                  <div class="bottom">
+                     <i>4:00 PM to 5:00 PM IST</i>
+                  </div>
+               </section>
+            </div>
+            <!-- <div class="row row-2">
                   <section>
                     <i class="icon fas fa-star"></i>
                     <div class="details">
@@ -339,632 +343,789 @@
                     </div>
                   </section>
                 </div> -->
-                <div class="row row-2">
-                  <section>
-                    <i class="icon fas fa-star"></i>
-                    <div class="details">
-                      <span class="title">Game Time</span>
-                      <span>13 Feb</span>
-                    </div>
-                    <!-- <p>Mini event / chillax sesh + How to submit on Devfolio</p> -->
-                    <div class="bottom">
-                      <!-- <a href="#">Read more</a> -->
-                      <i>6:00 PM to 7:00 PM IST</i>
-                    </div>
-                  </section>
-                </div>
-                <div class="row row-1">
-                  <section>
-                    <i class="icon fas fa-star"></i>
-                    <div class="details">
-                      <span class="title">Initial Submission Deadline</span>
-                      <span>13 Feb</span>
-                    </div>
-                    <p>Make an Initial Submission on Devfolio <br><h6>(Note : Submissions can still be edited till Final Submission Deadline)</h6> </p>
-                    <div class="bottom">
-                      <!-- <a href="#">Read more</a> -->
-                      <i>8:00 PM  IST</i>
-                    </div>
-                  </section>
-                </div>
-                <div class="row row-2">
-                  <section>
-                    <i class="icon fas fa-star"></i>
-                    <div class="details">
-                      <span class="title">Hacking Ends</span>
-                      <span>13 Feb</span>
-                    </div>
-                    <p>Submit all projects on Devfolio before 10:00 PM IST</p>
-                    <div class="bottom">
-                      <!-- <a href="#">Read more</a> -->
-                      <i>10:00 PM IST</i>
-                    </div>
-                  </section>
-                </div>
-                <div class="row row-1">
-                  <section>
-                    <i class="icon fas fa-star"></i>
-                    <div class="details">
-                      <span class="title">Top 10 Teams Announcement</span>
-                      <span>14 Feb</span>
-                    </div>
-                    <p>Top 10 Teams will be Announced on Discord</p>
-                    <div class="bottom">
-                      <!-- <a href="#">Read more</a> -->
-                      <i>12:00PM IST</i>
-                    </div>
-                  </section>
-                </div>
-                <div class="row row-2">
-                  <section>
-                    <i class="icon fas fa-star"></i>
-                    <div class="details">
-                      <span class="title">Closing Ceremony</span>
-                      <span>14 Feb</span>
-                    </div>
-                    <!-- <p>Submit all projects on Devfolio before 10:00 PM IST</p> -->
-                    <div class="bottom">
-                      <!-- <a href="#">Read more</a> -->
-                      <i>5:00 PM to 6:00 PM IST</i>
-                    </div>
-                  </section>
-                </div>
-             </div>
+            <div class="row row-2">
+               <section>
+                  <i class="icon fas fa-star"></i>
+                  <div class="details">
+                     <span class="title">Game Time</span>
+                     <span>13 Feb</span>
+                  </div>
+                  <!-- <p>Mini event / chillax sesh + How to submit on Devfolio</p> -->
+                  <div class="bottom">
+                     <!-- <a href="#">Read more</a> -->
+                     <i>6:00 PM to 7:00 PM IST</i>
+                  </div>
+               </section>
+            </div>
+            <div class="row row-1">
+               <section>
+                  <i class="icon fas fa-star"></i>
+                  <div class="details">
+                     <span class="title">Initial Submission Deadline</span>
+                     <span>13 Feb</span>
+                  </div>
+                  <p>Make an Initial Submission on Devfolio <br>
+                  <h6>(Note : Submissions can still be edited till Final Submission Deadline)</h6>
+                  </p>
+                  <div class="bottom">
+                     <!-- <a href="#">Read more</a> -->
+                     <i>8:00 PM IST</i>
+                  </div>
+               </section>
+            </div>
+            <div class="row row-2">
+               <section>
+                  <i class="icon fas fa-star"></i>
+                  <div class="details">
+                     <span class="title">Hacking Ends</span>
+                     <span>13 Feb</span>
+                  </div>
+                  <p>Submit all projects on Devfolio before 10:00 PM IST</p>
+                  <div class="bottom">
+                     <!-- <a href="#">Read more</a> -->
+                     <i>10:00 PM IST</i>
+                  </div>
+               </section>
+            </div>
+            <div class="row row-1">
+               <section>
+                  <i class="icon fas fa-star"></i>
+                  <div class="details">
+                     <span class="title">Top 10 Teams Announcement</span>
+                     <span>14 Feb</span>
+                  </div>
+                  <p>Top 10 Teams will be Announced on Discord</p>
+                  <div class="bottom">
+                     <!-- <a href="#">Read more</a> -->
+                     <i>12:00PM IST</i>
+                  </div>
+               </section>
+            </div>
+            <div class="row row-2">
+               <section>
+                  <i class="icon fas fa-star"></i>
+                  <div class="details">
+                     <span class="title">Closing Ceremony</span>
+                     <span>14 Feb</span>
+                  </div>
+                  <!-- <p>Submit all projects on Devfolio before 10:00 PM IST</p> -->
+                  <div class="bottom">
+                     <!-- <a href="#">Read more</a> -->
+                     <i>5:00 PM to 6:00 PM IST</i>
+                  </div>
+               </section>
+            </div>
          </div>
+      </div>
 
-      </section>
-      <!-- Timeline End -->
-      <!-- track start  -->
-      <div id="track" class="track">
-         <div class="container" id="collapse" style="transition: height ease-in-out 2s;">
-            <div class="row">
-               <div class="col-md-12">
-                  <div class="titlepage">
-                     <h2> Tracks </h2>
-                     <!-- <p>Lorem ipsum dolor sittem ametamngcing elit, per sed do eiusmoad <br>
+   </section>
+   <!-- Timeline End -->
+   <!-- track start  -->
+   <div id="track" class="track">
+      <div class="container" id="collapse" style="transition: height ease-in-out 2s;">
+         <div class="row">
+            <div class="col-md-12">
+               <div class="titlepage">
+                  <h2> Tracks </h2>
+                  <!-- <p>Lorem ipsum dolor sittem ametamngcing elit, per sed do eiusmoad <br>
                         teimpor sittem elit inuning ut sed.
                      </p> -->
-                  </div>
                </div>
             </div>
-            <div class="row">
-               <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                  <div class="track-box">
-                     <i><img src="images/brain.png" alt="#" loading="lazy"/></i>
-                     <h3>Artificial intelligence</h3>
-                     <p class="track-desc">The Artificial Intelligence and Machine Learning Track is aimed at making you consider the vast oceans of different possible solutions to aid to the mental health and its repercussions</p>
-                  </div>
-               </div>
-               <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                  <div class="track-box">
-                     <i><img src="images/immersive.png" alt="#" loading="lazy"/></i>
-                     <h3>AR/VR</h3>
-                     <p class="track-desc">The Augmented Reality and Virtual Reality track aims at engaging students to dive deeper into these technologies and explore the vast possible solutions to tackle mental health related issues.
-                     </p>
-                  </div>
-               </div>
-               <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                  <div class="track-box">
-                     <i><img src="images/mental-health.png" alt="#" loading="lazy"/></i>
-                     <h3>Mental Health</h3>
-                     <p class="track-desc"> The Mental Health track is more of an open innovation track wherein you can let your imagination take the lead to build something wondrous revolving around our theme, Mental Health.</p>
-                  </div>
-               </div>
-
-            </div>
-                <div class="row">
-               <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                  <div class="track-box">
-                     <i><img src="images/graduation-cap.png" alt="#" loading="lazy"/></i>
-                     <h3>Education</h3>
-                     <p class="track-desc">The Education track focuses on empowering students, young and old, by building new ways to teach and learn (about mental health and self care). Especially as learning schedules changed during the pandemic, this is the prime time to innovate our current educational systems keeping in mind the mental conditions of students and helping them with it.</p>
-                  </div>
-               </div>
-               <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                  <div class="track-box">
-                     <i><img src="images/blockchain.png" alt="#" loading="lazy"/></i>
-                     <h3>Blockchain</h3>
-                     <p class="track-desc">The Blockchain Track will help in reimagining the world and empower users to have full control and responsibility over their data. Use languages you already know to build something powerful which can provoke users in understanding the mental health revolving issues and tackling them.</p>
-                  </div>
-               </div>
-               <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                  <div class="track-box">
-                     <i><img src="images/solidarity.png" alt="#" loading="lazy"/></i>
-                     <h3>Healthcare</h3>
-                     <p class="track-desc">The Healthcare track aims to create innovative technology that will help further our understanding of and provide solutions for health-related issues. This includes modern public health challenges such as the COVID-19 pandemic, mental health, nutrition and diet, and many other topics.</p>
-                  </div>
-               </div>
-               <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                  <div class="track-box">
-                     <i><img src="images/self-care.png" alt="#" loading="lazy"/></i>
-                     <h3>Self care</h3>
-                     <p class="track-desc">The Projects in the Self Care track should be focussed at helping the users know the importance of Mental Fitness and how to achieve that through self care.</p>
-                  </div>
-               </div>
-               <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                  <div class="track-box">
-                     <i><img src="images/book.png" alt="#" loading="lazy"/></i>
-                     <h3>Open innovation</h3>
-                     <p class="track-desc">The Open Innovation Track aims at letting your imagination take the lead to build something wondrous revolving around our theme, Mental Health.</p>
-                  </div>
-               </div>
+         </div>
+         <div class="row">
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+               <div class="track-box">
+                  <i><img src="images/brain.png" alt="#" loading="lazy" /></i>
+                  <h3>Artificial intelligence</h3>
+                  <p class="track-desc">The Artificial Intelligence and Machine Learning Track is aimed at making you
+                     consider the vast oceans of different possible solutions to aid to the mental health and its
+                     repercussions</p>
                </div>
             </div>
-            <span class="read_more" id="open">View All Tracks</span>
-      </div>
-      <!-- end track -->
-      <!-- prizes -->
-      <div id="prizes" class="prizes">
-         <div class="container" id="collapse1">
-            <div class="row">
-               <div class="col-md-12">
-                  <div class="titlepage">
-                     <h2>What Prizes Do you Get ? </h2>
-                     <!-- <p>making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still </p> -->
-                  </div>
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+               <div class="track-box">
+                  <i><img src="images/immersive.png" alt="#" loading="lazy" /></i>
+                  <h3>AR/VR</h3>
+                  <p class="track-desc">The Augmented Reality and Virtual Reality track aims at engaging students to
+                     dive deeper into these technologies and explore the vast possible solutions to tackle mental health
+                     related issues.
+                  </p>
                </div>
             </div>
-            <div class="row">
-               <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                  <div id="box_ho" class="prizes-box">
-                     <div class="flip-card">
-                        <div class="flip-card-inner">
-                          <div class="flip-card-front">
-                            <img src="progressive images/1.jpg" alt="Avatar" >
-                            <h3>1st Prize</h3>
-                          </div>
-                          <div class="flip-card-back">
-                           <ul class="prize-desc">
-                              <li>$250 Digital Ocean Credits to Winner. </li>
-                              <li>₹1200/- GFG-discount coupon.   </li>
-                              <li>Swags and Goodies to all members of your team.</li>
-                              <li>The Wolfram Award for everyone on your team via award letter.</li>
-                              <li>One Personal Edition plus a one-year subscription to Wolfram|Alpha Pro.- worth $375 each individual award.</li>
-                              <li>Interview Buddy Async online mock interviews with unlimited practice- worth ₹899.  </li>
-                              <li>Lifetime upgrades of Taskade. </li>
-                              <li>Certificate of Appreciation. </li>
-                              
-                           </ul>
-                          </div>
-                        </div>
-                      </div>
-                  </div>
-               </div>
-               <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                  <div id="box_ho" class="prizes-box">
-                     <div class="flip-card">
-                        <div class="flip-card-inner">
-                          <div class="flip-card-front">
-                            <img src="progressive images/2.jpg" alt="Avatar" >
-                            <h3>2nd Prize</h3>
-                          </div>
-                          <div class="flip-card-back">
-                           <ul class="prize-desc">
-                              <li>$125 Digital Ocean Credits.  </li>
-                              <li>₹800/- GFG-discount coupon.  </li>
-                              <li>Swags and Goodies to all members of your team.</li>
-                              <li>The Wolfram Award for everyone on your team via award letter.</li>
-                              <li>One Personal Edition plus a one-year subscription to Wolfram|Alpha Pro.- worth $375 each individual award.</li>
-                              <li>Interview Buddy Async online mock interviews with unlimited practice- worth ₹899.  </li>
-                              <li>Lifetime upgrades of Taskade. </li>
-                              <li>Certificate of Appreciation. </li>
-                              
-                           </ul>
-                          </div>
-                        </div>
-                      </div>
-                  </div>
-               </div>
-               <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                  <div id="box_ho" class="prizes-box">
-                     <div class="flip-card">
-                        <div class="flip-card-inner">
-                          <div class="flip-card-front">
-                            <img src="progressive images/3.jpg" alt="Avatar" >
-                            <h3>3rd Prize</h3>
-                          </div>
-                          <div class="flip-card-back">
-                           <ul class="prize-desc">
-                              <li>$100 Digital Ocean Credits.  </li>
-                              <li>₹500/- GFG-discount coupon.  </li>
-                              <li>Swags and Goodies to all members of your team.</li>
-                              <li>The Wolfram Award for everyone on your team via award letter.</li>
-                              <li>One Personal Edition plus a one-year subscription to Wolfram|Alpha Pro.- worth $375 each individual award.</li>
-                              <li>Interview Buddy Async online mock interviews with unlimited practice- worth ₹899.  </li>
-                              <li>Lifetime upgrades of Taskade. </li>
-                              <li>Certificate of Appreciation. </li>
-                              
-                           </ul>
-                          </div>
-                        </div>
-                      </div>
-                  </div>
-               </div>
-
-            </div>
-            <div class="row" id="sponsor-prizes">
-               <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                  <div class="prizes-box-spon">
-                     <div class="flip-card">
-                        <div class="flip-card-inner">
-                          <div class="flip-card-front">
-                            <img src="progressive images/Polygon_Logo-Colored.jpg" alt="Avatar" >
-                            <h4>Best hack built with Ethereum</h4>
-                          </div>
-                          <div class="flip-card-back">
-                              <p>● 10000 INR for the best hack built on Ethereum.</p>
-                              <p>● If the team integrates Polygon into their hacks, the prize money will be raised to 15000 INR.</p>
-                             <p>● Eligibility for internship/full-time role interviews and seed funding of upto 5000 USD.</p> 
-                          </div>
-                        </div>
-                      </div>
-                  </div>
-               </div>
-               <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                  <div class="prizes-box-spon">
-                     <div class="flip-card">
-                        <div class="flip-card-inner">
-                          <div class="flip-card-front">
-                            <img src="progressive images/Tezos_Logo-Colored.jpg" alt="Avatar" >
-                            <h4>Best Dapp built on Tezos</h4>
-                          </div>
-                          <div class="flip-card-back">
-                           <p>● 20000 INR for best Dapp built on Tezos</p>
-                           <p>● Continuity grant opportunity up to 5,000 USD for an outstanding project.</p>
-                           <p>● Every valid submission made in the Tezos track will be rewarded with exclusive Schwag Kits.</p>
-                          </div>
-                        </div>
-                      </div>
-                  </div>
-               </div>
-               <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                  <div class="prizes-box-spon">
-                     <div class="flip-card">
-                        <div class="flip-card-inner">
-                          <div class="flip-card-front">
-                            <img src="progressive images/Celo_Logo_Color.jpg" alt="Avatar" >
-                            <h4 id="celo">Best Dapp built on Celo</h4>
-                          </div>
-                          <div class="flip-card-back">
-                            <p>● 20000 INR for best Dapp built on Celo </p> 
-                          </div>
-                        </div>
-                      </div>
-                  </div>
-               </div>
-               <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                  <div class="prizes-box-spon">
-                     <div class="flip-card">
-                        <div class="flip-card-inner">
-                          <div class="flip-card-front">
-                            <img src="progressive images/Filecoin_Coloured_White_Text.jpg" alt="Avatar" >
-                            <h4>Best use of IPFS and/or Filecoin</h4>
-                          </div>
-                          <div class="flip-card-back">
-                            <p>● 20000 INR for best use of IPFS and/or Filecoin </p> 
-                          </div>
-                        </div>
-                      </div>
-                  </div>
-               </div>
-               <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                  <div class="prizes-box-spon">
-                     <div class="flip-card">
-                        <div class="flip-card-inner">
-                          <div class="flip-card-front">
-                            <img id="raahee" src="progressive images/Raahee_Logo_Black_Horizontal.jpeg" alt="Avatar" >
-                            <h4>Internship Opportunity</h4>
-                          </div>
-                          <div class="flip-card-back">
-                            <p>● Providing an internship (if impressed by any project which matches the goal).</p> 
-                          </div>
-                        </div>
-                      </div>
-                  </div>
-               </div>
-               <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                  <div class="prizes-box-spon">
-                     <div class="flip-card">
-                        <div class="flip-card-inner">
-                          <div class="flip-card-front">
-                            <img id="raahee" src="progressive images/Postman.jpeg" alt="Avatar" >
-                            <h4>Best Use of Postman and APIs</h4>
-                          </div>
-                          <div class="flip-card-back">
-                            <p>● Team with best use of Postman and APIs in their Project will receive Swags and Goodies from Postman Student Leader..</p> 
-                          </div>
-                        </div>
-                      </div>
-                  </div>
-               </div>
-            </div>
-            <div class="row" id="participant-prizes">
-               <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                  <div class="prizes-box">
-                     <h3>For All Participants</h3>
-                     <ul class="prize-desc-participation">
-                        <li>Digitial Ocean $100, 60-day free trial for all attendees. </li>
-                        <li>₹300/-  GFG-discount coupon to all participants.</li>
-                          <li>Taskade 5-Year free upgrades to participants.</li> 
-                           <li>Interview Buddy Discount vouchers to the participants - 90% off.</li>
-                           <li>Access to Wolfram|One for all  participants for thirty days.</li>
-                           <li>Certificate of Participation</li>
-
-                        
-                     </ul>
-                  </div>
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+               <div class="track-box">
+                  <i><img src="images/mental-health.png" alt="#" loading="lazy" /></i>
+                  <h3>Mental Health</h3>
+                  <p class="track-desc"> The Mental Health track is more of an open innovation track wherein you can let
+                     your imagination take the lead to build something wondrous revolving around our theme, Mental
+                     Health.</p>
                </div>
             </div>
 
          </div>
-               <!-- <span class="prizes-btn" id="open1">View All Prizes</span> -->
-
+         <div class="row">
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+               <div class="track-box">
+                  <i><img src="images/graduation-cap.png" alt="#" loading="lazy" /></i>
+                  <h3>Education</h3>
+                  <p class="track-desc">The Education track focuses on empowering students, young and old, by building
+                     new ways to teach and learn (about mental health and self care). Especially as learning schedules
+                     changed during the pandemic, this is the prime time to innovate our current educational systems
+                     keeping in mind the mental conditions of students and helping them with it.</p>
+               </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+               <div class="track-box">
+                  <i><img src="images/blockchain.png" alt="#" loading="lazy" /></i>
+                  <h3>Blockchain</h3>
+                  <p class="track-desc">The Blockchain Track will help in reimagining the world and empower users to
+                     have full control and responsibility over their data. Use languages you already know to build
+                     something powerful which can provoke users in understanding the mental health revolving issues and
+                     tackling them.</p>
+               </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+               <div class="track-box">
+                  <i><img src="images/solidarity.png" alt="#" loading="lazy" /></i>
+                  <h3>Healthcare</h3>
+                  <p class="track-desc">The Healthcare track aims to create innovative technology that will help further
+                     our understanding of and provide solutions for health-related issues. This includes modern public
+                     health challenges such as the COVID-19 pandemic, mental health, nutrition and diet, and many other
+                     topics.</p>
+               </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+               <div class="track-box">
+                  <i><img src="images/self-care.png" alt="#" loading="lazy" /></i>
+                  <h3>Self care</h3>
+                  <p class="track-desc">The Projects in the Self Care track should be focussed at helping the users know
+                     the importance of Mental Fitness and how to achieve that through self care.</p>
+               </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+               <div class="track-box">
+                  <i><img src="images/book.png" alt="#" loading="lazy" /></i>
+                  <h3>Open innovation</h3>
+                  <p class="track-desc">The Open Innovation Track aims at letting your imagination take the lead to
+                     build something wondrous revolving around our theme, Mental Health.</p>
+               </div>
+            </div>
+         </div>
       </div>
-      <!-- end prizes -->
-            <!-- Organizer  -->
-            <div id="organizer" class="organizer">
-               <div class="container">
-                  <div class="row">
-                     <div class="col-md-12">
-                        <div class="titlepage">
-                           <h2> Organizers </h2>
+      <span class="read_more" id="open">View All Tracks</span>
+   </div>
+   <!-- end track -->
+   <!-- prizes -->
+   <div id="prizes" class="prizes">
+      <div class="container" id="collapse1">
+         <div class="row">
+            <div class="col-md-12">
+               <div class="titlepage">
+                  <h2>What Prizes Do you Get ? </h2>
+                  <!-- <p>making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still </p> -->
+               </div>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+               <div id="box_ho" class="prizes-box">
+                  <div class="flip-card">
+                     <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                           <img src="progressive images/1.jpg" alt="Avatar">
+                           <h3>1st Prize</h3>
                         </div>
-                           
-                        <div class="row">
-                           <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                              <div id="box_ho" class="org-box">
-                                 <i><img src="progressive images/aditya_iyer.jpg" alt="#" /></i>
-                                 <h3>Aditya Iyer</h3>
-                                 <p>Lead Organizer</p>
-                                    <a class="profile" href="https://in.linkedin.com/in/aditya-iyer-a2787aa7" target="_blank"><i class="fab fa-linkedin"></i></a>
-                                 
-                              </div>
-                           </div>
-                           <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                              <div class="org-box">
-                                 <i><img src="progressive images/kshitija_bharambe.jpg" alt="#" /></i>
-                                 <h3>Kshitija Bharambe</h3>
-                                 <p> Co-Lead Organizer </p>
-                                    <a class="profile" href="https://www.linkedin.com/in/kshitija-bharambe/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                                 
-                              </div>
-                           </div>
-                           <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                              <div class="org-box">
-                                 <i><img src="progressive images/omkar_ukirde__1_.jpg" alt="#" /></i>
-                                 <h3> Omkar Ukirde </h3>
-                                 <p>Technical Head</p>
-                                    <a class="profile" href="https://www.linkedin.com/in/omkar-ukirde-a793361b6" target="_blank"><i class="fab fa-linkedin"></i></a>
-                                 
-                              </div>
-                           </div>
-                           <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                              <div class="org-box">
-                                 <i><img src="progressive images/shreya_mani.jpg" alt="#" /></i>
-                                 <h3>Shreya Mani</h3>
-                                 <p>PR Head</p>
-                                    <a class="profile" href="https://www.linkedin.com/in/shreya-mani-419167179" target="_blank"><i class="fab fa-linkedin"></i></a>
-                                 </p>
-                              </div>
-                           </div>
-                           <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                              <div class="org-box">
-                                 <i><img src="progressive images/vaishnavi_gavi.jpg" alt="#" /></i>
-                                 <h3>Vaishnavi Gavi</h3>
-                                 <p>Marketing Head</p>
-                                    <a class="profile" href="https://www.linkedin.com/in/vaishnavi-gavi-0988b71b3" target="_blank"><i class="fab fa-linkedin"></i></a>
-                                 </p>
-                              </div>
-                           </div>
-                           <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                              <div class="org-box">
-                                 <i><img src="progressive images/akshay_jadhav.jpg" alt="#" /></i>
-                                 <h3>Akshay Jadhav</h3>
-                                 <p>Communication Incharge</p>
-                                    <a class="profile" href="https://www.linkedin.com/in/akshay-jadhav-90ba81134/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                                 
-                              </div>
-                           </div>
-                           <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                              <div id="box_ho" class="org-box">
-                                 <i><img src="progressive images/Nishtha_Gupta_CTO.jpg" alt="#" /></i>
-                                 <h3>Nishtha Gupta</h3>
-                                 <p> Women in Tech Incharge</p>
-                                    <a class="profile" href="https://www.linkedin.com/in/nishthagupta222"target="_blank"><i class="fab fa-linkedin"></i></a>
-                                 
-                              </div>
-                           </div>
+                        <div class="flip-card-back">
+                           <ul class="prize-desc">
+                              <li>$250 Digital Ocean Credits to Winner. </li>
+                              <li>₹1200/- GFG-discount coupon. </li>
+                              <li>Swags and Goodies to all members of your team.</li>
+                              <li>The Wolfram Award for everyone on your team via award letter.</li>
+                              <li>One Personal Edition plus a one-year subscription to Wolfram|Alpha Pro.- worth $375
+                                 each individual award.</li>
+                              <li>Interview Buddy Async online mock interviews with unlimited practice- worth ₹899.
+                              </li>
+                              <li>Lifetime upgrades of Taskade. </li>
+                              <li>Certificate of Appreciation. </li>
 
-                           <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                              <div class="org-box">
-                                 <i><img src="progressive images/janhavi_chaudhari.jpg" alt="#" /></i>
-                                 <h3>Janhavi Chaudhari</h3>
-                                 <p>Design Head</p>
-                                    <a class="profile" href="https://www.linkedin.com/in/janhavi-chaudhari-947a541a4" target="_blank"><i class="fab fa-linkedin"></i></a>
-                                 
-                              </div>
-                           </div>
-                           <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                              <div class="org-box">
-                                 <i><img src="progressive images/sarvika_tiwari.jpg" alt="#" /></i>
-                                 <h3>Sarvika Tiwari</h3>
-                                 <p>Content Head</p>
-                                    <a class="profile" href="https://www.linkedin.com/in/sarvika-tiwari-7476031a7" target="_blank"><i class="fab fa-linkedin"></i></a>
-                                 </p>
-                              </div>
-                           </div>
-                        </div>
+                           </ul>
                         </div>
                      </div>
                   </div>
-
-</div>
-
-            <!-- end Organizer -->
-
-                  
-                  <!-- Sponsor  -->
-                  <div id="sponsor" class="sponsor">
-                     <div class="container">
-                        <div class="row">
-                           <div class="col-md-12">
-                              <div class="titlepage">
-                                 <h2> Sponsors </h2>
-                              </div>
-
-                                 <div class="sponsor-type">
-                                    <h2><b>Gold</b></h2>
-                                 
-                                 <div class="row">
-                                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-8">
-                                       <div class="sponsor-pics">
-                                          <a href="https://devfolio.co" target="_blank"><i><img src="progressive images/Devfolio_Logo-Colored.jpg" alt="#" /></i> </a>
-                                       </div> 
-                                    </div>
-                                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-8">
-                                       <div class="sponsor-pics">
-                                          <a href="https://polygon.technology/" target="_blank"><i><img src="progressive images/Polygon_Logo-Colored.jpg" alt="#" /></i> </a>
-                                       </div> 
-                                    </div>
-                                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-8">
-                                       <div class="sponsor-pics">
-                                          <a href="https://try.digitalocean.com/developer-cloud" target="_blank"><i><img src="progressive images/DigitalOcean_Logo_Horizontal_Blue.jpg" alt="#" /></i> </a>
-                                       </div> 
-                                    </div>
-                                 </div>
-                              </div>
-                                 
-                                 <div class="sponsor-type">
-                                    <h2><b>Silver</b></h2>
-                                 
-                                 <div class="row">
-
-                                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-8">
-                                       <div class="sponsor-pics">
-                                         <a href="https://celo.org/" target="_blank"> <i><img src="progressive images/Celo_Logo_Color.jpg" alt="#" /></i></a> 
-                                       </div> 
-                                    </div>
-                                 
-                                     <div class="col-xl-3 col-lg-3 col-md-3 col-sm-8">
-                                       <div class="sponsor-pics" >
-                                          <a href="https://tezos.com/" target="_blank"><i><img src="progressive images/Tezos_Logo-Colored.jpg" alt="#" /></i> </a>
-                                       </div> 
-                                    </div>  
-                                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-8">
-                                       <div class="sponsor-pics" >
-                                          <a href="https://filecoin.io/" target="_blank"><i><img src="progressive images/Filecoin_Coloured_White_Text.jpg" alt="#" /></i> </a>
-                                       </div> 
-                                    </div>  
-                                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-8">
-                                       <div class="sponsor-pics" >
-                                          <a href="https://www.wolfram.com/wolfram-one" target="_blank"><i><img src="progressive images/Wolfram_2022_resizable_Vector.jpg" alt="#" /></i> </a>
-                                       </div> 
-                                    </div> 
-                                 </div>
-                              </div>
-                                 <div class="sponsor-type">
-                                    <h2><b>Bronze</b></h2>
-                                 
-                                 <div class="row">
-
-                                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-8">
-                                       <div class="sponsor-pics">
-                                         <a href="https://interviewbuddy.in/" target="_blank"> <i><img src="progressive images/InterviewBuddy_Logo_White.jpg" alt="#" /></i></a> 
-                                       </div> 
-                                    </div>
-                                 
-                                     <div class="col-xl-3 col-lg-3 col-md-3 col-sm-8">
-                                       <div class="sponsor-pics">
-                                          <a href="https://taskade.com/signup" target="_blank"><i><img src="progressive images/taskade-logo.jpg" alt="#" /></i> </a>
-                                       </div> 
-                                    </div>
-                                    
-                                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-8">
-                                       <div class="sponsor-pics">
-                                          <a href="http://www.echo3d.co/" target="_blank"><i><img src="progressive images/echo3D_-_Logo_2021_-_Black.jpg" alt="#" /></i> </a>
-                                       </div> 
-                                    </div>
-                                    
-                                 </div>
-                              </div>
-                                 <div class="sponsor-type">
-                                    <h2><b>Associate Sponsor</b></h2>
-                                 
-                                 <div class="row">
-                                    <div class="col-xl-4 col-lg-4 col-md-3 col-sm-8">
-                                       <div class="sponsor-pics">
-                                         <a href="https://www.geeksforgeeks.org/" target="_blank"> <i><img src="progressive images/GeekForGeeks_LOGO.jpg" alt="#" /></i></a> 
-                                       </div> 
-                                    </div>
-                                 </div>
-                              </div>
-                              <div class="sponsor-type">
-                                    <h2><b>Certificate Sponsor</b></h2>
-                                 
-                                 <div class="row">
-                                    <div class="col-xl-4 col-lg-4 col-md-3 col-sm-8">
-                                       <div class="sponsor-pics">
-                                         <a href="https://certopus.com/" target="_blank"> <i><img src="progressive images/certopus-logo-full.jpg" alt="#" /></i></a> 
-                                       </div> 
-                                    </div>
-                                 </div>
-                              </div>
-
-
-                           <div class="sponsor-type">
-                                 <h2><b>Wellbeing Partner</b></h2>
-                              <div class="row">
-                                 <div class="col-xl-4 col-lg-4 col-md-3 col-sm-8">
-                                    <div class="sponsor-pics">
-                                      <a href="https://raahee.in/" target="_blank"> <i><img src="progressive images/Raahee_Logo_Black_Horizontal.jpeg" alt="#" /></i></a> 
-                                    </div> 
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="sponsor-type">
-                              <h2><b>Streaming Partner</b></h2>
-                           <div class="row">
-                              <div class="col-xl-4 col-lg-4 col-md-3 col-sm-8">
-                                 <div class="sponsor-pics">
-                                   <a href="https://streamyard.com/" target="_blank"> <i><img src="progressive images/Streamyard_Logo.jpeg" alt="#" /></i></a> 
-                                 </div> 
-                              </div>
-                           </div>
+               </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+               <div id="box_ho" class="prizes-box">
+                  <div class="flip-card">
+                     <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                           <img src="progressive images/2.jpg" alt="Avatar">
+                           <h3>2nd Prize</h3>
                         </div>
-                        <div class="sponsor-type">
-                           <h2><b>Community Partners</b></h2>
-                        <div class="row">
-                           <!-- <div class="col-xl-4 col-lg-4 col-md-3 col-sm-8">
+                        <div class="flip-card-back">
+                           <ul class="prize-desc">
+                              <li>$125 Digital Ocean Credits. </li>
+                              <li>₹800/- GFG-discount coupon. </li>
+                              <li>Swags and Goodies to all members of your team.</li>
+                              <li>The Wolfram Award for everyone on your team via award letter.</li>
+                              <li>One Personal Edition plus a one-year subscription to Wolfram|Alpha Pro.- worth $375
+                                 each individual award.</li>
+                              <li>Interview Buddy Async online mock interviews with unlimited practice- worth ₹899.
+                              </li>
+                              <li>Lifetime upgrades of Taskade. </li>
+                              <li>Certificate of Appreciation. </li>
+
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+               <div id="box_ho" class="prizes-box">
+                  <div class="flip-card">
+                     <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                           <img src="progressive images/3.jpg" alt="Avatar">
+                           <h3>3rd Prize</h3>
+                        </div>
+                        <div class="flip-card-back">
+                           <ul class="prize-desc">
+                              <li>$100 Digital Ocean Credits. </li>
+                              <li>₹500/- GFG-discount coupon. </li>
+                              <li>Swags and Goodies to all members of your team.</li>
+                              <li>The Wolfram Award for everyone on your team via award letter.</li>
+                              <li>One Personal Edition plus a one-year subscription to Wolfram|Alpha Pro.- worth $375
+                                 each individual award.</li>
+                              <li>Interview Buddy Async online mock interviews with unlimited practice- worth ₹899.
+                              </li>
+                              <li>Lifetime upgrades of Taskade. </li>
+                              <li>Certificate of Appreciation. </li>
+
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+         </div>
+         <div class="row" id="sponsor-prizes">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+               <div class="prizes-box-spon">
+                  <div class="flip-card">
+                     <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                           <img src="progressive images/Polygon_Logo-Colored.jpg" alt="Avatar">
+                           <h4>Best hack built with Ethereum</h4>
+                        </div>
+                        <div class="flip-card-back">
+                           <p>● 10000 INR for the best hack built on Ethereum.</p>
+                           <p>● If the team integrates Polygon into their hacks, the prize money will be raised to 15000
+                              INR.</p>
+                           <p>● Eligibility for internship/full-time role interviews and seed funding of upto 5000 USD.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+               <div class="prizes-box-spon">
+                  <div class="flip-card">
+                     <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                           <img src="progressive images/Tezos_Logo-Colored.jpg" alt="Avatar">
+                           <h4>Best Dapp built on Tezos</h4>
+                        </div>
+                        <div class="flip-card-back">
+                           <p>● 20000 INR for best Dapp built on Tezos</p>
+                           <p>● Continuity grant opportunity up to 5,000 USD for an outstanding project.</p>
+                           <p>● Every valid submission made in the Tezos track will be rewarded with exclusive Schwag
+                              Kits.</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+               <div class="prizes-box-spon">
+                  <div class="flip-card">
+                     <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                           <img src="progressive images/Celo_Logo_Color.jpg" alt="Avatar">
+                           <h4 id="celo">Best Dapp built on Celo</h4>
+                        </div>
+                        <div class="flip-card-back">
+                           <p>● 20000 INR for best Dapp built on Celo </p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+               <div class="prizes-box-spon">
+                  <div class="flip-card">
+                     <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                           <img src="progressive images/Filecoin_Coloured_White_Text.jpg" alt="Avatar">
+                           <h4>Best use of IPFS and/or Filecoin</h4>
+                        </div>
+                        <div class="flip-card-back">
+                           <p>● 20000 INR for best use of IPFS and/or Filecoin </p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+               <div class="prizes-box-spon">
+                  <div class="flip-card">
+                     <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                           <img id="raahee" src="progressive images/Raahee_Logo_Black_Horizontal.jpeg" alt="Avatar">
+                           <h4>Internship Opportunity</h4>
+                        </div>
+                        <div class="flip-card-back">
+                           <p>● Providing an internship (if impressed by any project which matches the goal).</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+               <div class="prizes-box-spon">
+                  <div class="flip-card">
+                     <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                           <img id="raahee" src="progressive images/Postman.jpeg" alt="Avatar">
+                           <h4>Best Use of Postman and APIs</h4>
+                        </div>
+                        <div class="flip-card-back">
+                           <p>● Team with best use of Postman and APIs in their Project will receive Swags and Goodies
+                              from Postman Student Leader..</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="row" id="participant-prizes">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+               <div class="prizes-box">
+                  <h3>For All Participants</h3>
+                  <ul class="prize-desc-participation">
+                     <li>Digitial Ocean $100, 60-day free trial for all attendees. </li>
+                     <li>₹300/- GFG-discount coupon to all participants.</li>
+                     <li>Taskade 5-Year free upgrades to participants.</li>
+                     <li>Interview Buddy Discount vouchers to the participants - 90% off.</li>
+                     <li>Access to Wolfram|One for all participants for thirty days.</li>
+                     <li>Certificate of Participation</li>
+
+
+                  </ul>
+               </div>
+            </div>
+         </div>
+
+      </div>
+      <!-- <span class="prizes-btn" id="open1">View All Prizes</span> -->
+
+   </div>
+   <!-- end prizes -->
+
+
+
+   <!-- Faq -->
+   <div id="faq" class="faq">
+
+      <div class="row">
+         <div class="col-md-12">
+            <div class="titlepage">
+               <h2> FAQs</h2>
+               <!-- <p>making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still </p> -->
+            </div>
+         </div>
+      </div>
+      <div class="column">
+         <section class="faq-container">
+            <div class="faq-one">
+               <!-- faq question -->
+               <h1 class="faq-page">What is Psych Hack?</h1>
+               <!-- faq answer -->
+               <div class="faq-body">
+                  <p>Psych Hack is a 36-hour hackathon aimed at encouraging student developers and problem solvers to
+                     create technology that addresses Mental Health and its multitudes while also making the world a
+                     better place to live. </p>
+               </div>
+            </div>
+            <hr class="hr-line">
+            <div class="faq-two">
+               <!-- faq question -->
+               <h1 class="faq-page">What is a Hackathon ?</h1>
+               <!-- faq answer -->
+               <div class="faq-body">
+                  <p>
+                     A hackathon, also known as a codefest, is a social coding event that brings computer programmers
+                     and other interested people together to improve upon or build a new software program.</p>
+               </div>
+            </div>
+            <hr class="hr-line">
+            <div class="faq-three">
+               <!-- faq question -->
+               <h1 class="faq-page">Who can attend a Hackathon?</h1>
+               <!-- faq answer -->
+               <div class="faq-body">
+                  <p>Anyone who is interested in technology can attend a hackathon to learn, build and share . Also ,
+                     you should be of age 13 and above.</p>
+               </div>
+            </div>
+            <hr class="hr-line">
+
+            <div class="faq-four">
+               <!-- faq question -->
+               <h1 class="faq-page">Can beginners participate?</h1>
+               <!-- faq answer -->
+               <div class="faq-body">
+                  <p>Absolutely. We will have plenty of mentors and resources available,along with several workshops
+                     targeted for begginers. Come learn along and Experience your first hackathon with Psych Hack</p>
+               </div>
+            </div>
+            <hr class="hr-line">
+
+            <div class="faq-five">
+               <!-- faq question -->
+               <h1 class="faq-page">Can we form Teams?</h1>
+               <!-- faq answer -->
+               <div class="faq-body">
+                  <p>Most Definitely !! We Believe in Collaboration and encourage Hackers to work in a team of upto 2 to
+                     4 members</p>
+               </div>
+            </div>
+            <hr class="hr-line">
+
+            <div class="faq-six">
+               <!-- faq question -->
+               <h1 class="faq-page">Can I submit my previous project ?</h1>
+               <!-- faq answer -->
+               <div class="faq-body">
+                  <p>We Apologize , but all hackathon's project should be developed during the event from scratch . We
+                     want honest conditions for all the hackers.Thats why all code should be done during the hackathon
+                  </p>
+               </div>
+            </div>
+            <hr class="hr-line">
+
+            <div class="faq-seven">
+               <!-- faq question -->
+               <h1 class="faq-page">Any more Questions ?</h1>
+               <!-- faq answer -->
+               <div class="faq-body">
+                  <p>Join our Discord server <a href="https://discord.gg/Deph4c2Q6M" target="_blanks"><u>here</u></a>
+                     Ask any other question you have and connect with a larger community . We look forward to welcoming
+                     you.</p>
+               </div>
+
+
+
+         </section>
+
+      </div>
+   </div>
+   </div>
+   <!-- end faq -->
+   <!-- Organizer  -->
+   <div id="organizer" class="organizer">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-12">
+               <div class="titlepage">
+                  <h2> Organizers </h2>
+               </div>
+
+               <div class="row">
+                  <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                     <div id="box_ho" class="org-box">
+                        <i><img src="progressive images/aditya_iyer.jpg" alt="#" /></i>
+                        <h3>Aditya Iyer</h3>
+                        <p>Lead Organizer</p>
+                        <a class="profile" href="https://in.linkedin.com/in/aditya-iyer-a2787aa7" target="_blank"><i
+                              class="fab fa-linkedin"></i></a>
+
+                     </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                     <div class="org-box">
+                        <i><img src="progressive images/kshitija_bharambe.jpg" alt="#" /></i>
+                        <h3>Kshitija Bharambe</h3>
+                        <p> Co-Lead Organizer </p>
+                        <a class="profile" href="https://www.linkedin.com/in/kshitija-bharambe/" target="_blank"><i
+                              class="fab fa-linkedin"></i></a>
+
+                     </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                     <div class="org-box">
+                        <i><img src="progressive images/omkar_ukirde__1_.jpg" alt="#" /></i>
+                        <h3> Omkar Ukirde </h3>
+                        <p>Technical Head</p>
+                        <a class="profile" href="https://www.linkedin.com/in/omkar-ukirde-a793361b6" target="_blank"><i
+                              class="fab fa-linkedin"></i></a>
+
+                     </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                     <div class="org-box">
+                        <i><img src="progressive images/shreya_mani.jpg" alt="#" /></i>
+                        <h3>Shreya Mani</h3>
+                        <p>PR Head</p>
+                        <a class="profile" href="https://www.linkedin.com/in/shreya-mani-419167179" target="_blank"><i
+                              class="fab fa-linkedin"></i></a>
+                        </p>
+                     </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                     <div class="org-box">
+                        <i><img src="progressive images/vaishnavi_gavi.jpg" alt="#" /></i>
+                        <h3>Vaishnavi Gavi</h3>
+                        <p>Marketing Head</p>
+                        <a class="profile" href="https://www.linkedin.com/in/vaishnavi-gavi-0988b71b3"
+                           target="_blank"><i class="fab fa-linkedin"></i></a>
+                        </p>
+                     </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                     <div class="org-box">
+                        <i><img src="progressive images/akshay_jadhav.jpg" alt="#" /></i>
+                        <h3>Akshay Jadhav</h3>
+                        <p>Communication Incharge</p>
+                        <a class="profile" href="https://www.linkedin.com/in/akshay-jadhav-90ba81134/"
+                           target="_blank"><i class="fab fa-linkedin"></i></a>
+
+                     </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                     <div id="box_ho" class="org-box">
+                        <i><img src="progressive images/Nishtha_Gupta_CTO.jpg" alt="#" /></i>
+                        <h3>Nishtha Gupta</h3>
+                        <p> Women in Tech Incharge</p>
+                        <a class="profile" href="https://www.linkedin.com/in/nishthagupta222" target="_blank"><i
+                              class="fab fa-linkedin"></i></a>
+
+                     </div>
+                  </div>
+
+                  <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                     <div class="org-box">
+                        <i><img src="progressive images/janhavi_chaudhari.jpg" alt="#" /></i>
+                        <h3>Janhavi Chaudhari</h3>
+                        <p>Design Head</p>
+                        <a class="profile" href="https://www.linkedin.com/in/janhavi-chaudhari-947a541a4"
+                           target="_blank"><i class="fab fa-linkedin"></i></a>
+
+                     </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                     <div class="org-box">
+                        <i><img src="progressive images/sarvika_tiwari.jpg" alt="#" /></i>
+                        <h3>Sarvika Tiwari</h3>
+                        <p>Content Head</p>
+                        <a class="profile" href="https://www.linkedin.com/in/sarvika-tiwari-7476031a7"
+                           target="_blank"><i class="fab fa-linkedin"></i></a>
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+   </div>
+
+   <!-- end Organizer -->
+
+
+   <!-- Sponsor  -->
+   <div id="sponsor" class="sponsor">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-12">
+               <div class="titlepage">
+                  <h2> Sponsors </h2>
+               </div>
+
+               <div class="sponsor-type">
+                  <h2><b>Gold</b></h2>
+
+                  <div class="row">
+                     <div class="col-xl-3 col-lg-3 col-md-3 col-sm-8">
+                        <div class="sponsor-pics">
+                           <a href="https://devfolio.co" target="_blank"><i><img
+                                    src="progressive images/Devfolio_Logo-Colored.jpg" alt="#" /></i> </a>
+                        </div>
+                     </div>
+                     <div class="col-xl-3 col-lg-3 col-md-3 col-sm-8">
+                        <div class="sponsor-pics">
+                           <a href="https://polygon.technology/" target="_blank"><i><img
+                                    src="progressive images/Polygon_Logo-Colored.jpg" alt="#" /></i> </a>
+                        </div>
+                     </div>
+                     <div class="col-xl-3 col-lg-3 col-md-3 col-sm-8">
+                        <div class="sponsor-pics">
+                           <a href="https://try.digitalocean.com/developer-cloud" target="_blank"><i><img
+                                    src="progressive images/DigitalOcean_Logo_Horizontal_Blue.jpg" alt="#" /></i> </a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="sponsor-type">
+                  <h2><b>Silver</b></h2>
+
+                  <div class="row">
+
+                     <div class="col-xl-3 col-lg-3 col-md-3 col-sm-8">
+                        <div class="sponsor-pics">
+                           <a href="https://celo.org/" target="_blank"> <i><img
+                                    src="progressive images/Celo_Logo_Color.jpg" alt="#" /></i></a>
+                        </div>
+                     </div>
+
+                     <div class="col-xl-3 col-lg-3 col-md-3 col-sm-8">
+                        <div class="sponsor-pics">
+                           <a href="https://tezos.com/" target="_blank"><i><img
+                                    src="progressive images/Tezos_Logo-Colored.jpg" alt="#" /></i> </a>
+                        </div>
+                     </div>
+                     <div class="col-xl-3 col-lg-3 col-md-3 col-sm-8">
+                        <div class="sponsor-pics">
+                           <a href="https://filecoin.io/" target="_blank"><i><img
+                                    src="progressive images/Filecoin_Coloured_White_Text.jpg" alt="#" /></i> </a>
+                        </div>
+                     </div>
+                     <div class="col-xl-3 col-lg-3 col-md-3 col-sm-8">
+                        <div class="sponsor-pics">
+                           <a href="https://www.wolfram.com/wolfram-one" target="_blank"><i><img
+                                    src="progressive images/Wolfram_2022_resizable_Vector.jpg" alt="#" /></i> </a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="sponsor-type">
+                  <h2><b>Bronze</b></h2>
+
+                  <div class="row">
+
+                     <div class="col-xl-3 col-lg-3 col-md-3 col-sm-8">
+                        <div class="sponsor-pics">
+                           <a href="https://interviewbuddy.in/" target="_blank"> <i><img
+                                    src="progressive images/InterviewBuddy_Logo_White.jpg" alt="#" /></i></a>
+                        </div>
+                     </div>
+
+                     <div class="col-xl-3 col-lg-3 col-md-3 col-sm-8">
+                        <div class="sponsor-pics">
+                           <a href="https://taskade.com/signup" target="_blank"><i><img
+                                    src="progressive images/taskade-logo.jpg" alt="#" /></i> </a>
+                        </div>
+                     </div>
+
+                     <div class="col-xl-3 col-lg-3 col-md-3 col-sm-8">
+                        <div class="sponsor-pics">
+                           <a href="http://www.echo3d.co/" target="_blank"><i><img
+                                    src="progressive images/echo3D_-_Logo_2021_-_Black.jpg" alt="#" /></i> </a>
+                        </div>
+                     </div>
+
+                  </div>
+               </div>
+               <div class="sponsor-type">
+                  <h2><b>Associate Sponsor</b></h2>
+
+                  <div class="row">
+                     <div class="col-xl-4 col-lg-4 col-md-3 col-sm-8">
+                        <div class="sponsor-pics">
+                           <a href="https://www.geeksforgeeks.org/" target="_blank"> <i><img
+                                    src="progressive images/GeekForGeeks_LOGO.jpg" alt="#" /></i></a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="sponsor-type">
+                  <h2><b>Certificate Sponsor</b></h2>
+
+                  <div class="row">
+                     <div class="col-xl-4 col-lg-4 col-md-3 col-sm-8">
+                        <div class="sponsor-pics">
+                           <a href="https://certopus.com/" target="_blank"> <i><img
+                                    src="progressive images/certopus-logo-full.jpg" alt="#" /></i></a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+
+               <div class="sponsor-type">
+                  <h2><b>Wellbeing Partner</b></h2>
+                  <div class="row">
+                     <div class="col-xl-4 col-lg-4 col-md-3 col-sm-8">
+                        <div class="sponsor-pics">
+                           <a href="https://raahee.in/" target="_blank"> <i><img
+                                    src="progressive images/Raahee_Logo_Black_Horizontal.jpeg" alt="#" /></i></a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="sponsor-type">
+                  <h2><b>Streaming Partner</b></h2>
+                  <div class="row">
+                     <div class="col-xl-4 col-lg-4 col-md-3 col-sm-8">
+                        <div class="sponsor-pics">
+                           <a href="https://streamyard.com/" target="_blank"> <i><img
+                                    src="progressive images/Streamyard_Logo.jpeg" alt="#" /></i></a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="sponsor-type">
+                  <h2><b>Community Partners</b></h2>
+                  <div class="row">
+                     <!-- <div class="col-xl-4 col-lg-4 col-md-3 col-sm-8">
                               <div class="sponsor-pics" id="gdsc_logos">
                                 <a> <i><img src="images/community-partner/GDSC_Govt._College_University__Lahore_vertical_color.jpg" alt="#" /></i></a> 
                               </div> 
                            </div> -->
-                           <!-- <div class="col-xl-4 col-lg-4 col-md-3 col-sm-8">
+                     <!-- <div class="col-xl-4 col-lg-4 col-md-3 col-sm-8">
                               <div class="sponsor-pics" id="gdsc_logos">
                                 <a> <i><img src="images/community-partner/GDSC_Indian_Institute_of_Information_Technology__Kota_vertical_color.jpg" alt="#" /></i></a> 
                               </div> 
                            </div> -->
-                           <!-- <div class="col-xl-4 col-lg-4 col-md-3 col-sm-8">
+                     <!-- <div class="col-xl-4 col-lg-4 col-md-3 col-sm-8">
                               <div class="sponsor-pics" id="gdsc_logos">
                                 <a> <i><img src="images/community-partner/GDSC_Indian_Institute_of_Technology__Goa_vertical_color.jpg" alt="#" /></i></a> 
                               </div> 
                            </div> -->
-                           <div class="col-xl-4 col-lg-4 col-md-3 col-sm-8">
-                              <div class="sponsor-pics" id="gdsc_logos">
-                                <a> <i><img src="images/community-partner/GDSC_St._Vincent_Palloti_College_of_Engineering___Technology_vertical_color.jpg" alt="#" /></i></a> 
-                              </div> 
-                           </div>
-                           <div class="col-xl-4 col-lg-4 col-md-3 col-sm-8">
-                              <div class="sponsor-pics" id="gdsc_logos">
-                                <a> <i><img src="images/community-partner/GDSC_Jaypee_Institute_of_Information_Technology_vertical_color.jpg" alt="#" /></i></a> 
-                              </div> 
-                           </div>
-                           <!-- <div class="col-xl-4 col-lg-4 col-md-3 col-sm-8">
+                     <div class="col-xl-4 col-lg-4 col-md-3 col-sm-8">
+                        <div class="sponsor-pics" id="gdsc_logos">
+                           <a> <i><img
+                                    src="images/community-partner/GDSC_St._Vincent_Palloti_College_of_Engineering___Technology_vertical_color.jpg"
+                                    alt="#" /></i></a>
+                        </div>
+                     </div>
+                     <div class="col-xl-4 col-lg-4 col-md-3 col-sm-8">
+                        <div class="sponsor-pics" id="gdsc_logos">
+                           <a> <i><img
+                                    src="images/community-partner/GDSC_Jaypee_Institute_of_Information_Technology_vertical_color.jpg"
+                                    alt="#" /></i></a>
+                        </div>
+                     </div>
+                     <!-- <div class="col-xl-4 col-lg-4 col-md-3 col-sm-8">
                               <div class="sponsor-pics" id="gdsc_logos">
                                 <a> <i><img src="images/community-partner/GDSC_Universitas_Gunaderma_vertical_color.jpg" alt="#" /></i></a> 
                               </div> 
                            </div> -->
-                           <!-- <div class="col-xl-4 col-lg-4 col-md-3 col-sm-8">
+                     <!-- <div class="col-xl-4 col-lg-4 col-md-3 col-sm-8">
                               <div class="sponsor-pics" id="gdsc_logos">
                                 <a> <i><img src="images/community-partner/GDSC_Usha_Mittal_Institute_of_Technology_vertical_color.jpg" alt="#" /></i></a> 
                               </div> 
@@ -974,29 +1135,31 @@
                                 <a> <i><img src="images/community-partner/GDSC_Usha_Mittal_Institute_of_Technology_vertical_color.jpg" alt="#" /></i></a> 
                               </div> 
                            </div> -->
-                           <div class="col-xl-4 col-lg-4 col-md-3 col-sm-8">
-                              <div class="sponsor-pics" id="gdsc_logos">
-                                <a> <i><img src="images/community-partner/GDSC MPSTME Mumbai  vertical color.png" alt="#" /></i></a> 
-                              </div> 
-                           </div>
-                           <!-- <div class="col-xl-4 col-lg-4 col-md-3 col-sm-8">
+                     <div class="col-xl-4 col-lg-4 col-md-3 col-sm-8">
+                        <div class="sponsor-pics" id="gdsc_logos">
+                           <a> <i><img src="images/community-partner/GDSC MPSTME Mumbai  vertical color.png"
+                                    alt="#" /></i></a>
+                        </div>
+                     </div>
+                     <!-- <div class="col-xl-4 col-lg-4 col-md-3 col-sm-8">
                               <div class="sponsor-pics" >
                                 <a> <i><img src="images/community-partner/Code Os Logo.jpeg" alt="#" /></i></a> 
                               </div> 
                            </div> -->
-                           <!-- <div class="col-xl-4 col-lg-4 col-md-3 col-sm-8">
+                     <!-- <div class="col-xl-4 col-lg-4 col-md-3 col-sm-8">
                               <div class="sponsor-pics" id="kugdurg">
                                 <a> <i><img src="images/community-partner/Kug_Durg.jpeg" alt="#" /></i></a> 
                               </div> 
                            </div> -->
-                           <div class="col-xl-4 col-lg-4 col-md-3 col-sm-8">
-                              <div class="sponsor-pics" id="michispotlight">
-                                <a href="https://michispotlight.substack.com/" target="_blank"> <i><img src="images/community-partner/MichiSpotlight Official Logo.png" alt="#" /></i></a> 
-                              </div> 
-                           </div>
+                     <div class="col-xl-4 col-lg-4 col-md-3 col-sm-8">
+                        <div class="sponsor-pics" id="michispotlight">
+                           <a href="https://michispotlight.substack.com/" target="_blank"> <i><img
+                                    src="images/community-partner/MichiSpotlight Official Logo.png" alt="#" /></i></a>
                         </div>
                      </div>
-                           <!-- <div class="sponsor-type">
+                  </div>
+               </div>
+               <!-- <div class="sponsor-type">
                               <h2><b>Community Partners</b></h2>
                            <div class="row">
                               <div class="col-xl-4 col-lg-4 col-md-3 col-sm-8">
@@ -1010,65 +1173,71 @@
 
 
 
-                        </div>  
-                        </div>
+            </div>
+         </div>
 
-                        <!-- Sponsor Us  -->
-                        <div class="sponsor-us">
-                           <h2><b>Want to Become a Sponsor?</b> </h2>
-                           <a class="sponsor-btn" href="https://drive.google.com/file/d/1Nyaay-8FwbzAR7c2NYm7s_hK-s0NJiFc/view?usp=sharing" target="_blank">View Brochure</a>
+         <!-- Sponsor Us  -->
+         <div class="sponsor-us">
+            <h2><b>Want to Become a Sponsor?</b> </h2>
+            <a class="sponsor-btn"
+               href="https://drive.google.com/file/d/1Nyaay-8FwbzAR7c2NYm7s_hK-s0NJiFc/view?usp=sharing"
+               target="_blank">View Brochure</a>
+
+         </div>
+         <!-- End Sponsor Us -->
+      </div>
+   </div>
+   <!-- end Sponsor -->
+
+   <!-- mentor section -->
+   <div id="speakers" class="mentor">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-12">
+               <div class="titlepage">
+                  <h2> Judges </h2>
+               </div>
+               <div class="judges-space">
+                  <div class="row">
+
+
+                     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                        <div class="org-box">
+                           <i><img src="progressive images/Judges-mentor/Aditya Birangal.jpeg" alt="#" /></i>
+                           <h3> Aditya Birangal </h3>
+                           <a class="profile" href="https://www.linkedin.com/in/adityabirangal/" target="_blank"><i
+                                 class="fab fa-linkedin"></i></a>
 
                         </div>
-                        <!-- End Sponsor Us -->
                      </div>
-                  </div>
-                  <!-- end Sponsor -->
+                     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                        <div class="org-box">
+                           <i><img src="progressive images/Judges-mentor/Akshat Bhat.jpeg" alt="#" /></i>
+                           <h3>Akshat Bhat</h3>
+                           <a class="profile" href="https://www.linkedin.com/in/akshat-bhat-536472199/"
+                              target="_blank"><i class="fab fa-linkedin"></i></a>
+                           </p>
+                        </div>
+                     </div>
+                     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                        <div id="box_ho" class="org-box">
+                           <i><img src="progressive images/Judges-mentor/George Andronchik.jpeg" alt="#" /></i>
+                           <h3>George Andronchik</h3>
+                           <a class="profile" href="https://www.linkedin.com/in/andronchik/" target="_blank"><i
+                                 class="fab fa-linkedin"></i></a>
 
-                  <!-- mentor section -->
-                  <div id="speakers" class="mentor">
-                     <div class="container">
-                        <div class="row">
-                           <div class="col-md-12">
-                              <div class="titlepage">
-                                 <h2> Judges </h2>
-                              </div>
-                              <div class="judges-space">  
-                              <div class="row">
-
-
-                                 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                                    <div class="org-box">
-                                       <i><img src="progressive images/Judges-mentor/Aditya Birangal.jpeg" alt="#" /></i>
-                                       <h3> Aditya Birangal </h3>
-                                          <a class="profile" href="https://www.linkedin.com/in/adityabirangal/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                                       
-                                    </div>
-                                 </div>
-                                 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                                    <div class="org-box">
-                                       <i><img src="progressive images/Judges-mentor/Akshat Bhat.jpeg" alt="#" /></i>
-                                       <h3>Akshat Bhat</h3>
-                                          <a class="profile" href="https://www.linkedin.com/in/akshat-bhat-536472199/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                                       </p>
-                                    </div>
-                                 </div>
-                                 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                                    <div id="box_ho" class="org-box">
-                                       <i><img src="progressive images/Judges-mentor/George Andronchik.jpeg" alt="#" /></i>
-                                       <h3>George Andronchik</h3>
-                                          <a class="profile" href="https://www.linkedin.com/in/andronchik/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                                       
-                                    </div>
-                                 </div>
-                                 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                                    <div class="org-box">
-                                       <i><img src="progressive images/Judges-mentor/Sayali Mohite.jpeg" alt="#" /></i>
-                                       <h3>Sayali Mohite</h3>
-                                          <a class="profile" href="https://www.linkedin.com/in/sayalimohite55/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                                       </p>
-                                    </div>
-                                 </div>
-                                 <!-- <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                        </div>
+                     </div>
+                     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                        <div class="org-box">
+                           <i><img src="progressive images/Judges-mentor/Sayali Mohite.jpeg" alt="#" /></i>
+                           <h3>Sayali Mohite</h3>
+                           <a class="profile" href="https://www.linkedin.com/in/sayalimohite55/" target="_blank"><i
+                                 class="fab fa-linkedin"></i></a>
+                           </p>
+                        </div>
+                     </div>
+                     <!-- <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                                     <div class="org-box">
                                        <i><img src="progressive images/Judges-mentor/Vivek Gupta.jpeg" alt="#" /></i>
                                        <h3>Vivek Gupta</h3>
@@ -1076,385 +1245,325 @@
                                        
                                     </div>
                                  </div> -->
-                                 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                                    <div class="org-box">
-                                       <i><img src="progressive images/Judges-mentor/Vivek_Yadav.jpeg" alt="#" /></i>
-                                       <h3>Vivek Yadav</h3>
-                                          <a class="profile" href="https://www.linkedin.com/in/viveky259/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                                       
-                                    </div>
-                                 </div>
-                              </div> 
-                              <div class="titlepage" id="mentor-title">
-                                 <h2> Mentors </h2>
-                              </div>
-                              <div class="mentor-space">  
-                                 <div class="row">
-                                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
-                                       <div id="box_ho" class="org-box">
-                                          <i><img src="progressive images/Judges-mentor/Aditya Thakur.jpeg" alt="#" /></i>
-                                          <h3>Aditya Thakur</h3>
-                                             <a class="profile" href="https://www.linkedin.com/in/adityathakurxd/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                                          
-                                       </div>
-                                    </div>
-                                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
-                                       <div class="org-box">
-                                          <i><img src="progressive images/Judges-mentor/Akshit Madan.jpeg" alt="#" /></i>
-                                          <h3>Akshit Madan</h3>
-                                             <a class="profile" href="https://www.linkedin.com/in/akshit-madan-394a82a6/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                                          
-                                       </div>
-                                    </div>
-                                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
-                                       <div class="org-box">
-                                          <i><img src="progressive images/Judges-mentor/Aman Raj.jpeg" alt="#" /></i>
-                                          <h3> Aman Raj</h3>
-                                             <a class="profile" href="https://www.linkedin.com/in/aman-raj-871b5a1aa/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                                          </p>
-                                       </div>
-                                    </div>
-                                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
-                                       <div class="org-box">
-                                          <i><img src="progressive images/Judges-mentor/Bhavik Patalia.jpeg" alt="#" /></i>
-                                          <h3> Bhavik Patalia</h3>
-                                             <a class="profile" href="https://www.linkedin.com/in/bhavik-patalia-366a8116a/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                                          </p>
-                                       </div>
-                                    </div>
-                                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
-                                       <div class="org-box">
-                                          <i><img src="progressive images/Judges-mentor/Haridarshan Choudhary.jpeg" alt="#" /></i>
-                                          <h3>Haridarshan Choudhary</h3>
-                                             <a class="profile" href="https://www.linkedin.com/in/haridarshan-choudhary/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                                          </p>
-                                       </div>
-                                    </div>
-                                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
-                                       <div class="org-box">
-                                          <i><img src="progressive images/Judges-mentor/Harsh Bardhan Mishra.jpeg" alt="#" /></i>
-                                          <h3>Harsh Bardhan Mishra</h3>
-                                             <a class="profile" href="https://www.linkedin.com/in/harshcasper/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                                          </p>
-                                       </div>
-                                    </div>
-                                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
-                                       <div class="org-box">
-                                          <i><img src="progressive images/Judges-mentor/Harsh Kulkarni.jpeg" alt="#" /></i>
-                                          <h3>Harsh Kulkarni</h3>
-                                             <a class="profile" href="https://www.linkedin.com/in/harsh-kulkarni-68a8301b3/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                                          </p>
-                                       </div>
-                                    </div>
-                                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
-                                       <div class="org-box">
-                                          <i><img src="progressive images/Judges-mentor/Harshit Singh.jpeg" alt="#" /></i>
-                                          <h3>Harshit Singh</h3>
-                                             <a class="profile" href="https://twitter.com/helios1101?s=20" target="_blank"><i class="fab fa-twitter"></i></a>
-                                          </p>
-                                       </div>
-                                    </div>
-                                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
-                                       <div class="org-box">
-                                          <i><img src="progressive images/Judges-mentor/Manali Chaudhari.jpeg" alt="#" /></i>
-                                          <h3> Manali Chaudhari</h3>
-                                             <a class="profile" href="https://www.linkedin.com/in/manali-chaudhari/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                                          </p>
-                                       </div>
-                                    </div>
-                                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
-                                       <div class="org-box">
-                                          <i><img src="progressive images/Judges-mentor/Muhammad Hamza.jpeg" alt="#" /></i>
-                                          <h3> Muhammad Hamza</h3>
-                                             <a class="profile" href="https://www.linkedin.com/in/mhmzdev/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                                          </p>
-                                       </div>
-                                    </div>
-                                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
-                                       <div class="org-box">
-                                          <i><img src="progressive images/Judges-mentor/Priyanshu Paliwal.jpeg" alt="#" /></i>
-                                          <h3>Priyanshu Paliwal</h3>
-                                             <a class="profile" href="https://www.linkedin.com/in/priyanshupaliwal078/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                                          </p>
-                                       </div>
-                                    </div>
-                                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
-                                       <div class="org-box">
-                                          <i><img src="progressive images/Judges-mentor/Prince Canuma.jpeg" alt="#" /></i>
-                                          <h3> Prince Canuma</h3>
-                                             <a class="profile" href="https://twitter.com/CanumaGdt" target="_blank"><i class="fab fa-twitter"></i></a>
-                                          </p>
-                                       </div>
-                                    </div>
-                                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
-                                       <div class="org-box">
-                                          <i><img src="progressive images/Judges-mentor/Rishav Das.jpeg" alt="#" /></i>
-                                          <h3>Rishav Dash</h3>
-                                             <a class="profile" href="https://www.linkedin.com/in/rishdash/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                                          </p>
-                                       </div>
-                                    </div>
-                                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
-                                       <div class="org-box">
-                                          <i><img src="progressive images/Judges-mentor/Roshni Chauhan.jpeg" alt="#" /></i>
-                                          <h3>Roshni Chauhan</h3>
-                                             <a class="profile" href="https://www.linkedin.com/in/roshni-chauhan-0aa410185/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                                          </p>
-                                       </div>
-                                    </div>
-                                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
-                                       <div class="org-box">
-                                          <i><img src="progressive images/Judges-mentor/Rugved Somwanshi.jpeg" alt="#" /></i>
-                                          <h3> Rugved Somwanshi</h3>
-                                             <a class="profile" href="https://www.linkedin.com/in/rugved-somwanshi-29078417b/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                                          </p>
-                                       </div>
-                                    </div>
-                                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
-                                       <div class="org-box">
-                                          <i><img src="progressive images/Judges-mentor/Sanskriti Kushik.jpeg" alt="#" /></i>
-                                          <h3>Sanskriti Kushik</h3>
-                                             <a class="profile" href="https://www.linkedin.com/in/sanskriti-kushik-2302/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                                          </p>
-                                       </div>
-                                    </div>
-                                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
-                                       <div class="org-box">
-                                          <i><img src="progressive images/Judges-mentor/Shivam Gor.jpeg" alt="#" /></i>
-                                          <h3>Shivam Gor</h3>
-                                             <a class="profile" href="https://www.linkedin.com/in/shivam-gor-71a211148/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                                          </p>
-                                       </div>
-                                    </div>
-                                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
-                                       <div class="org-box">
-                                          <i><img src="progressive images/Judges-mentor/Shubham Gurav.jpeg" alt="#" /></i>
-                                          <h3> Shubham Gurav</h3>
-                                             <a class="profile" href="https://www.linkedin.com/in/shubham-gurav-10ba6b168/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                                          </p>
-                                       </div>
-                                    </div>
-                                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
-                                       <div class="org-box">
-                                          <i><img src="progressive images/Judges-mentor/Tanmay Trivedi.jpeg" alt="#" /></i>
-                                          <h3> Tanmay Trivedi</h3>
-                                             <a class="profile" href="https://www.linkedin.com/in/tanmay-trivedi-665b771aa/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                                          </p>
-                                       </div>
-                                    </div>
-                                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
-                                       <div class="org-box">
-                                          <i><img src="progressive images/Judges-mentor/Tejaswi Chaudhari.jpeg" alt="#" /></i>
-                                          <h3>Tejaswi Chaudhari</h3>
-                                             <a class="profile" href="https://www.linkedin.com/in/tejaswi-chaudhari/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                                          </p>
-                                       </div>
-                                    </div>
-                                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
-                                       <div class="org-box">
-                                          <i><img src="progressive images/Judges-mentor/Tushar Nikam.jpeg" alt="#" /></i>
-                                          <h3>Tushar Nikam </h3>
-                                             <a class="profile" href="https://www.linkedin.com/in/tushar-nikam-a29a97131/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                                       </div>
-                                    </div>
+                     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                        <div class="org-box">
+                           <i><img src="progressive images/Judges-mentor/Vivek_Yadav.jpeg" alt="#" /></i>
+                           <h3>Vivek Yadav</h3>
+                           <a class="profile" href="https://www.linkedin.com/in/viveky259/" target="_blank"><i
+                                 class="fab fa-linkedin"></i></a>
 
-                                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
-                                       <div class="org-box">
-                                          <i><img src="progressive images/Judges-mentor/Vishesh Mittal.jpeg" alt="#" /></i>
-                                          <h3>Vishesh Mittal</h3>
-                                             <a class="profile" href="https://www.linkedin.com/in/vishesh-mittal-606134169/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                                          </p>
-                                       </div>
-                                    </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="titlepage" id="mentor-title">
+                     <h2> Mentors </h2>
+                  </div>
+                  <div class="mentor-space">
+                     <div class="row">
+                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
+                           <div id="box_ho" class="org-box">
+                              <i><img src="progressive images/Judges-mentor/Aditya Thakur.jpeg" alt="#" /></i>
+                              <h3>Aditya Thakur</h3>
+                              <a class="profile" href="https://www.linkedin.com/in/adityathakurxd/" target="_blank"><i
+                                    class="fab fa-linkedin"></i></a>
 
-                                 </div> 
-                              </div>
-                              </div>
                            </div>
                         </div>
+                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
+                           <div class="org-box">
+                              <i><img src="progressive images/Judges-mentor/Akshit Madan.jpeg" alt="#" /></i>
+                              <h3>Akshit Madan</h3>
+                              <a class="profile" href="https://www.linkedin.com/in/akshit-madan-394a82a6/"
+                                 target="_blank"><i class="fab fa-linkedin"></i></a>
+
+                           </div>
                         </div>
-      
-      </div>
+                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
+                           <div class="org-box">
+                              <i><img src="progressive images/Judges-mentor/Aman Raj.jpeg" alt="#" /></i>
+                              <h3> Aman Raj</h3>
+                              <a class="profile" href="https://www.linkedin.com/in/aman-raj-871b5a1aa/"
+                                 target="_blank"><i class="fab fa-linkedin"></i></a>
+                              </p>
+                           </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
+                           <div class="org-box">
+                              <i><img src="progressive images/Judges-mentor/Bhavik Patalia.jpeg" alt="#" /></i>
+                              <h3> Bhavik Patalia</h3>
+                              <a class="profile" href="https://www.linkedin.com/in/bhavik-patalia-366a8116a/"
+                                 target="_blank"><i class="fab fa-linkedin"></i></a>
+                              </p>
+                           </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
+                           <div class="org-box">
+                              <i><img src="progressive images/Judges-mentor/Haridarshan Choudhary.jpeg" alt="#" /></i>
+                              <h3>Haridarshan Choudhary</h3>
+                              <a class="profile" href="https://www.linkedin.com/in/haridarshan-choudhary/"
+                                 target="_blank"><i class="fab fa-linkedin"></i></a>
+                              </p>
+                           </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
+                           <div class="org-box">
+                              <i><img src="progressive images/Judges-mentor/Harsh Bardhan Mishra.jpeg" alt="#" /></i>
+                              <h3>Harsh Bardhan Mishra</h3>
+                              <a class="profile" href="https://www.linkedin.com/in/harshcasper/" target="_blank"><i
+                                    class="fab fa-linkedin"></i></a>
+                              </p>
+                           </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
+                           <div class="org-box">
+                              <i><img src="progressive images/Judges-mentor/Harsh Kulkarni.jpeg" alt="#" /></i>
+                              <h3>Harsh Kulkarni</h3>
+                              <a class="profile" href="https://www.linkedin.com/in/harsh-kulkarni-68a8301b3/"
+                                 target="_blank"><i class="fab fa-linkedin"></i></a>
+                              </p>
+                           </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
+                           <div class="org-box">
+                              <i><img src="progressive images/Judges-mentor/Harshit Singh.jpeg" alt="#" /></i>
+                              <h3>Harshit Singh</h3>
+                              <a class="profile" href="https://twitter.com/helios1101?s=20" target="_blank"><i
+                                    class="fab fa-twitter"></i></a>
+                              </p>
+                           </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
+                           <div class="org-box">
+                              <i><img src="progressive images/Judges-mentor/Manali Chaudhari.jpeg" alt="#" /></i>
+                              <h3> Manali Chaudhari</h3>
+                              <a class="profile" href="https://www.linkedin.com/in/manali-chaudhari/" target="_blank"><i
+                                    class="fab fa-linkedin"></i></a>
+                              </p>
+                           </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
+                           <div class="org-box">
+                              <i><img src="progressive images/Judges-mentor/Muhammad Hamza.jpeg" alt="#" /></i>
+                              <h3> Muhammad Hamza</h3>
+                              <a class="profile" href="https://www.linkedin.com/in/mhmzdev/" target="_blank"><i
+                                    class="fab fa-linkedin"></i></a>
+                              </p>
+                           </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
+                           <div class="org-box">
+                              <i><img src="progressive images/Judges-mentor/Priyanshu Paliwal.jpeg" alt="#" /></i>
+                              <h3>Priyanshu Paliwal</h3>
+                              <a class="profile" href="https://www.linkedin.com/in/priyanshupaliwal078/"
+                                 target="_blank"><i class="fab fa-linkedin"></i></a>
+                              </p>
+                           </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
+                           <div class="org-box">
+                              <i><img src="progressive images/Judges-mentor/Prince Canuma.jpeg" alt="#" /></i>
+                              <h3> Prince Canuma</h3>
+                              <a class="profile" href="https://twitter.com/CanumaGdt" target="_blank"><i
+                                    class="fab fa-twitter"></i></a>
+                              </p>
+                           </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
+                           <div class="org-box">
+                              <i><img src="progressive images/Judges-mentor/Rishav Das.jpeg" alt="#" /></i>
+                              <h3>Rishav Dash</h3>
+                              <a class="profile" href="https://www.linkedin.com/in/rishdash/" target="_blank"><i
+                                    class="fab fa-linkedin"></i></a>
+                              </p>
+                           </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
+                           <div class="org-box">
+                              <i><img src="progressive images/Judges-mentor/Roshni Chauhan.jpeg" alt="#" /></i>
+                              <h3>Roshni Chauhan</h3>
+                              <a class="profile" href="https://www.linkedin.com/in/roshni-chauhan-0aa410185/"
+                                 target="_blank"><i class="fab fa-linkedin"></i></a>
+                              </p>
+                           </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
+                           <div class="org-box">
+                              <i><img src="progressive images/Judges-mentor/Rugved Somwanshi.jpeg" alt="#" /></i>
+                              <h3> Rugved Somwanshi</h3>
+                              <a class="profile" href="https://www.linkedin.com/in/rugved-somwanshi-29078417b/"
+                                 target="_blank"><i class="fab fa-linkedin"></i></a>
+                              </p>
+                           </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
+                           <div class="org-box">
+                              <i><img src="progressive images/Judges-mentor/Sanskriti Kushik.jpeg" alt="#" /></i>
+                              <h3>Sanskriti Kushik</h3>
+                              <a class="profile" href="https://www.linkedin.com/in/sanskriti-kushik-2302/"
+                                 target="_blank"><i class="fab fa-linkedin"></i></a>
+                              </p>
+                           </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
+                           <div class="org-box">
+                              <i><img src="progressive images/Judges-mentor/Shivam Gor.jpeg" alt="#" /></i>
+                              <h3>Shivam Gor</h3>
+                              <a class="profile" href="https://www.linkedin.com/in/shivam-gor-71a211148/"
+                                 target="_blank"><i class="fab fa-linkedin"></i></a>
+                              </p>
+                           </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
+                           <div class="org-box">
+                              <i><img src="progressive images/Judges-mentor/Shubham Gurav.jpeg" alt="#" /></i>
+                              <h3> Shubham Gurav</h3>
+                              <a class="profile" href="https://www.linkedin.com/in/shubham-gurav-10ba6b168/"
+                                 target="_blank"><i class="fab fa-linkedin"></i></a>
+                              </p>
+                           </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
+                           <div class="org-box">
+                              <i><img src="progressive images/Judges-mentor/Tanmay Trivedi.jpeg" alt="#" /></i>
+                              <h3> Tanmay Trivedi</h3>
+                              <a class="profile" href="https://www.linkedin.com/in/tanmay-trivedi-665b771aa/"
+                                 target="_blank"><i class="fab fa-linkedin"></i></a>
+                              </p>
+                           </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
+                           <div class="org-box">
+                              <i><img src="progressive images/Judges-mentor/Tejaswi Chaudhari.jpeg" alt="#" /></i>
+                              <h3>Tejaswi Chaudhari</h3>
+                              <a class="profile" href="https://www.linkedin.com/in/tejaswi-chaudhari/"
+                                 target="_blank"><i class="fab fa-linkedin"></i></a>
+                              </p>
+                           </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
+                           <div class="org-box">
+                              <i><img src="progressive images/Judges-mentor/Tushar Nikam.jpeg" alt="#" /></i>
+                              <h3>Tushar Nikam </h3>
+                              <a class="profile" href="https://www.linkedin.com/in/tushar-nikam-a29a97131/"
+                                 target="_blank"><i class="fab fa-linkedin"></i></a>
+                           </div>
+                        </div>
 
+                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
+                           <div class="org-box">
+                              <i><img src="progressive images/Judges-mentor/Vishesh Mittal.jpeg" alt="#" /></i>
+                              <h3>Vishesh Mittal</h3>
+                              <a class="profile" href="https://www.linkedin.com/in/vishesh-mittal-606134169/"
+                                 target="_blank"><i class="fab fa-linkedin"></i></a>
+                              </p>
+                           </div>
+                        </div>
 
-
-
-                  <!-- end mentor section -->
-                  
-                  <!-- Faq -->
-      <div id="faq" class="faq">
-         
-            <div class="row">
-               <div class="col-md-12">
-                  <div class="titlepage">
-                     <h2> FAQs</h2>
-                     <!-- <p>making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still </p> -->
+                     </div>
                   </div>
                </div>
             </div>
-            <div class="column">
-        <section class="faq-container">
-            <div class="faq-one">
-                <!-- faq question -->
-                <h1 class="faq-page">What is Psych Hack?</h1>
-                <!-- faq answer -->
-                <div class="faq-body">
-                    <p>Psych Hack is a 36-hour hackathon aimed at encouraging student developers and problem solvers to create technology that addresses Mental Health and its multitudes while also making the world a better place to live. </p>
-                </div>
-            </div>
-            <hr class="hr-line">
-            <div class="faq-two">
-                <!-- faq question -->
-                <h1 class="faq-page">What is a Hackathon ?</h1>
-                <!-- faq answer -->
-                <div class="faq-body">
-                    <p>
-                     A hackathon, also known as a codefest, is a social coding event that brings computer programmers and other interested people together to improve upon or build a new software program.</p>
-                </div>
-            </div>
-            <hr class="hr-line">
-            <div class="faq-three">
-                <!-- faq question -->
-                  <h1 class="faq-page">Who can attend a Hackathon?</h1>
-                <!-- faq answer -->
-                <div class="faq-body">
-                    <p>Anyone who is interested in technology can attend a hackathon to learn, build and share . Also , you should be of age 13 and above.</p>
-                </div>
-            </div>
-            <hr class="hr-line">
+         </div>
+      </div>
 
-            <div class="faq-four">
-               <!-- faq question -->
-                 <h1 class="faq-page">Can beginners participate?</h1>
-               <!-- faq answer -->
-               <div class="faq-body">
-                   <p>Absolutely. We will have plenty of mentors and resources available,along with several workshops targeted for begginers. Come learn along and Experience your first hackathon with Psych Hack</p>
+   </div>
+
+
+
+
+   <!-- end mentor section -->
+
+
+
+   <!--  footer -->
+   <footer>
+      <div class="footer-dark" id="contact">
+         <footer>
+            <div class="container">
+               <div class="row">
+                  <div class="col-xl-4 col-lg-4 col-md-6 col-sm-8">
+                     <img src="images/loggdsc (3).png" loading="lazy">&nbsp;&nbsp;
+                  </div>
+
+
+
+                  <div class="col-xl-6 col-lg-6 col-md-6 col-sm-8">
+                     <div class="about-gdsc">
+                        <h3>About Club</h3>
+                        <p>GDSC RAIT is a community of budding developers, entrepreneurs, and innovators, getting ready
+                           to solve real-world problems. Our mission is to inculcate an innovative mindset in our
+                           members to help our local community as well as contributing towards solving global crises. We
+                           hope to build impactful software and guide the future leaders of our world. </p>
+                     </div>
+                     <!-- <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div> -->
+                  </div>
                </div>
-           </div>
-           <hr class="hr-line">
-
-           <div class="faq-five">
-            <!-- faq question -->
-              <h1 class="faq-page">Can we form Teams?</h1>
-            <!-- faq answer -->
-            <div class="faq-body">
-                <p>Most Definitely !! We Believe in Collaboration and encourage Hackers to work in a team of upto 2 to 4 members</p>
-            </div>
-        </div>
-        <hr class="hr-line">
-
-        <div class="faq-six">
-         <!-- faq question -->
-           <h1 class="faq-page">Can I submit my previous project ?</h1>
-         <!-- faq answer -->
-         <div class="faq-body">
-             <p>We Apologize , but all hackathon's project should be developed during the event from scratch . We want honest conditions for all the hackers.Thats why all code should be done during the hackathon</p>
-         </div>
-     </div>
-     <hr class="hr-line">
-
-     <div class="faq-seven">
-      <!-- faq question -->
-        <h1 class="faq-page">Any more Questions ?</h1>
-      <!-- faq answer -->
-      <div class="faq-body">
-          <p>Join our Discord server <a href="https://discord.gg/Deph4c2Q6M" target="_blanks"><u>here</u></a> Ask any other question you have and connect with a larger community . We look forward to welcoming you.</p>
-      </div>
-      
-
-    
-        </section>
-
-            </div>
-         </div>
-      </div>
-      <!-- end faq -->
-
- 
-      <!--  footer -->
-      <footer>
-         <div class="footer-dark" id="contact">
-            <footer>
-                <div class="container">
-                    <div class="row">
-                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-8">
-                        <img src="images/loggdsc (3).png" loading="lazy">&nbsp;&nbsp;
-                     </div>
-                           
-                        
-
-                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-8">
-                           <div class="about-gdsc">
-                              <h3>About Club</h3>
-                              <p>GDSC RAIT is a community of budding developers, entrepreneurs, and innovators, getting ready to solve real-world problems. Our mission is to inculcate an innovative mindset in our members to help our local community as well as contributing towards solving global crises. We hope to build impactful software and guide the future leaders of our world. </p>
-                          </div>
-                          <!-- <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div> -->
-                      </div>
-                     </div>
-                    <div class="socials">
-                     <div class="row">
+               <div class="socials">
+                  <div class="row">
                      <!-- <h3>Contact Us:</h3> -->
                      <a href="https://www.instagram.com/gdsc.rait/" target="_blank"><i class="fab fa-instagram"></i></a>
-                     <a href="https://in.linkedin.com/company/developer-student-club-rait" target="_blank"><i class="fab fa-linkedin"></i></a>
+                     <a href="https://in.linkedin.com/company/developer-student-club-rait" target="_blank"><i
+                           class="fab fa-linkedin"></i></a>
                      <a href="mailto: dsc.rait@gmail.com" target="_blank"><i class="fas fa-envelope"></i></i></a>
                      <a href="https://discord.gg/Deph4c2Q6M" target="_blank"><i class="fab fa-discord"></i></a>
-                     <a href="https://twitter.com/ClubRait?t=UwkbYOUNjNxHm750mroihw&s=09" target="_blank"><i class="fab fa-twitter"></i></i></a>
+                     <a href="https://twitter.com/ClubRait?t=UwkbYOUNjNxHm750mroihw&s=09" target="_blank"><i
+                           class="fab fa-twitter"></i></i></a>
                   </div>
                </div>
                <p class="copyright">GDSC RAIT © 2021-22</p>
 
-                </div>
-            </footer>
-        </div>
-      </footer>
-      <!-- end footer -->
+            </div>
+         </footer>
+      </div>
+   </footer>
+   <!-- end footer -->
 
 
 
 
 
 
-      <!-- Javascript files-->
-      <script>
-         let coll = document.getElementById("open");
-         let content = document.getElementById("collapse");
+   <!-- Javascript files-->
+   <script>
+      let coll = document.getElementById("open");
+      let content = document.getElementById("collapse");
 
-         function myFunction(x) {
-            if (x.matches) { // If media query matches
-                  coll.addEventListener("click", function() {
-                     console.log("clicked");
-                        if (content.style.height === '1400px') {
-                           content.style.height = '4000px';
-                           coll.innerHTML = 'Collapse'
-                           var strLink = "#track" ;
-                           document.getElementById("open").setAttribute("href",strLink);
+      function myFunction(x) {
+         if (x.matches) { // If media query matches
+            coll.addEventListener("click", function () {
+               console.log("clicked");
+               if (content.style.height === '1400px') {
+                  content.style.height = '4000px';
+                  coll.innerHTML = 'Collapse'
+                  var strLink = "#track";
+                  document.getElementById("open").setAttribute("href", strLink);
 
-                           // content.style.transition = 'height 1s ease-in-out;';
-                        } else {
-                           content.style.height = '1400px';
-                        }
-                     });
-            } 
-            else {      
-                  coll.addEventListener("click", function() {
-                     if (content.style.height === '550px') {
-                        content.style.height = '1700px';
-                        coll.innerHTML ='Collapse';
-                        
-                        // content.style.transition = 'height 1s ease-in-out;';
-                     } else {
-                        content.style.height = '550px';
-                     }
-                  });
-            }
-            }
+                  // content.style.transition = 'height 1s ease-in-out;';
+               } else {
+                  content.style.height = '1400px';
+               }
+            });
+         }
+         else {
+            coll.addEventListener("click", function () {
+               if (content.style.height === '550px') {
+                  content.style.height = '1700px';
+                  coll.innerHTML = 'Collapse';
 
-            var x = window.matchMedia("(max-width: 700px)")
-            myFunction(x) // Call listener function at run time
-            x.addListener(myFunction) // Attach listener function on state changes
-            
-      </script>
-            <!-- <script>
+                  // content.style.transition = 'height 1s ease-in-out;';
+               } else {
+                  content.style.height = '550px';
+               }
+            });
+         }
+      }
+
+      var x = window.matchMedia("(max-width: 700px)")
+      myFunction(x) // Call listener function at run time
+      x.addListener(myFunction) // Attach listener function on state changes
+
+   </script>
+   <!-- <script>
                let coll1 = document.getElementById("open1");
                let content1 = document.getElementById("collapse1");
       
@@ -1485,24 +1594,24 @@
                   x.addListener(myFunction) // Attach listener function on state changes
                   
             </script> -->
-      
-      <script src="js/jquery.min.js"></script>
-      <script src="js/popper.min.js"></script>
-      <script src="js/bootstrap.bundle.min.js"></script>
-      <script src="js/jquery-3.0.0.min.js"></script>
-      <script src="js/plugin.js"></script>
-      <script src="js/three.js"></script>
-      <script src="js/timer.js"></script>
-      <!-- <script src="js/snow.js"></script> -->
-      <!-- <script src="js/snowfall.js"></script> -->
-      <!-- <script src="js/snowfalll.js"></script> -->
-      <!-- sidebar -->
-      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-      <script src="js/custom.js"></script>
-      <script src="js/faq.js"></script>
-  
 
-      <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
-   </body>
+   <script src="js/jquery.min.js"></script>
+   <script src="js/popper.min.js"></script>
+   <script src="js/bootstrap.bundle.min.js"></script>
+   <script src="js/jquery-3.0.0.min.js"></script>
+   <script src="js/plugin.js"></script>
+   <script src="js/three.js"></script>
+   <script src="js/timer.js"></script>
+   <!-- <script src="js/snow.js"></script> -->
+   <!-- <script src="js/snowfall.js"></script> -->
+   <!-- <script src="js/snowfalll.js"></script> -->
+   <!-- sidebar -->
+   <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+   <script src="js/custom.js"></script>
+   <script src="js/faq.js"></script>
+
+
+   <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+</body>
+
 </html>
-
